@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="alert success" *ngIf="isDeleted">Asset deleted successfully!</div>
+  <div class="alert success" *ngIf="isRequested">Audit request placed successfully!</div>
+  <div class="alert error" *ngIf="isError">Audit request already placed!</div>
+  <div class="search-bar">
+    <h1>Asset Allocation</h1>
+    <div>
+      <input type="number" [(ngModel)]="searchTerm" (input)="getAllData()" placeholder="Search by Allocation ID" />
+      <button (click)="search()" class="btn btn-primary">Search</button>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <th>Allocation ID</th>
+      <th>User ID</th>
+      <th>Asset No</th>
+      <th>Allocation Date</th>
+      <th>Return Date</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let allocation of filteredData">
+      <td>{{allocation.allocationId}}</td>
+      <td>{{allocation.usersId}}</td>
+      <td>{{allocation.assetNo}}</td>
+      <td>{{allocation.allocationDate}}</td>
+      <td>{{allocation.returnDate}}</td>
+      <td>
+        <div>
+          <button class="btn btn-info btn-sm" (click)="auditRequest(allocation)">Audit Request</button>
+          <button class="btn btn-danger btn-sm" (click)="delete(allocation.assetNo)">Delete</button>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+</body>
+
+</html>

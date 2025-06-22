@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="alert success" *ngIf="isRequested">Asset request placed successfully!</div>
+  <div class="alert error" *ngIf="isError">Asset request already placed!</div>
+  <div class="search-bar">
+    <input type="text" [(ngModel)]="searchTerm" (input)="getAllData()"
+      placeholder="Search by Asset No, Category, Availability" />
+    <button (click)="search()" class="btn btn-primary">Search</button>
+  </div>
+  <div class="asset-list">
+    <div class="asset-card" *ngFor="let asset of filteredData">
+      <img [src]="getImage(asset.image)" alt="Asset Image" class="asset-img" />
+
+      <div class="asset-info">
+        <h3>{{ asset.assetName }}</h3>
+        <p><strong>Asset No:</strong> {{ asset.assetNo }}</p>
+        <p><strong>Category:</strong> {{ asset.category }}</p>
+        <p><strong>Availability:</strong> {{ asset.availability }}</p>
+        <p><strong>Value:</strong> ₹{{ asset.assetValue }}</p>
+      </div>
+
+      <div class="action-buttons">
+        <button class="update-btn" (click)="viewInfo(asset)">Info</button>
+        <button class="info-btn" (click)="requestAsset(asset.assetNo)">Request</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup-overlay" *ngIf="selectedAsset">
+    <div class="popup-box">
+      <div>
+        <button class="close-btn-info" (click)="infoClose()">x</button>
+        <img [src]="getImage(selectedAsset.image)" alt="Asset Image" class="asset-img" />
+      </div>
+      <h2>{{ selectedAsset.assetName }}</h2>
+      <p><strong>Asset No:</strong> {{ selectedAsset.assetNo }}</p>
+      <p><strong>Category:</strong> {{ selectedAsset.category }}</p>
+      <p><strong>Model:</strong> {{ selectedAsset.assetModel }}</p>
+      <p><strong>Manufacturing Date:</strong> {{ selectedAsset.manufacturingDate | date }}</p>
+      <p><strong>Expiry Date:</strong> {{ selectedAsset.expiryDate | date }}</p>
+      <p><strong>Value:</strong> ₹{{ selectedAsset.assetValue }}</p>
+      <p><strong>Availability:</strong> {{ selectedAsset.availability }}</p>
+    </div>
+  </div>
+
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <img src="assets/logo.jpg" alt="" width="50" height="50">
+        <li>Dashboard</li>
+        <li><a routerLink="/asset-dashboard">Asset</a></li>
+        <li><a>Asset allocation</a></li>
+        <li><a>Asset reqest</a></li>
+        <li><a>Audit request</a></li>
+        <li><a>Service request</a></li>
+        <li><a>Users</a></li>
+        <li><a>Credential</a></li>
+        <li><button>Notification</button></li>
+        <li><button routerLink="/login">Logout</button></li>
+      </ul>
+
+    </nav>
+  </header>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-links">
+        <img src="assets/logo.png" class="logo">
+        <a routerLink="/asset-dashboard">Asset</a>
+        <a routerLink="/asset-allocation-dashboard">Asset allocation</a>
+        <a routerLink="/asset-request-dashboard">Asset reqest</a>
+        <a routerLink="/audit-request-dashboard">Audit request</a>
+        <a routerLink="/service-request-dashboard">Service request</a>
+        <a routerLink="/users-dashboard">Users</a>
+      </div>
+      <div>
+        <div class="profile-wrapper" (click)="profileClicked()">
+          <img src="assets/profile.png" alt="Profile" class="profile-icon" />
+          <div class="dropdown-menu" *ngIf="isProfileBarClicked">
+            <button routerLink="/profile">Profile</button>
+            <button (click)="logout()">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="container mt-4">
+    <h2 class="text-center mb-4">Admin Dashboard</h2>
+    <div class="row">
+      <div class="col-md-6 mb-4" *ngFor="let module of dashboardInfo">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body">
+            <h5 class="card-title text-primary">{{ module.title }}</h5>
+            <p class="card-text">{{ module.description }}</p>
+            <small class="text-muted">{{ module.tip }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+</body>
+
+</html>

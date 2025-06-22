@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_bYO3wE5-EfCrB7LwsDlPdw" name="AssetManagementModel">
+    <eAnnotations xmi:id="_-Q9xME5-EfCrB7LwsDlPdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_-Q9xMU5-EfCrB7LwsDlPdw" source="codegen">
+        <details xmi:id="_-Q-YQE5-EfCrB7LwsDlPdw" key="codegenDirectory" value="/AssetManagement/src/main/java"/>
+        <details xmi:id="_-oZZwE5-EfCrB7LwsDlPdw" key="AssociatedSourceCode" value="/AssetManagement/src/main/java/com/hexaware/assetmanagement/services/AssetManagementServiceImp.java;701159451/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_-RLzoE5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_-RMasE5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_-RNBwE5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_-RNBwU5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_-RNBwk5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_-RNo0E5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_-RNo0U5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_-ROP4E5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_-RQFEE5-EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-PNdsE5-EfCrB7LwsDlPdw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PP58E5-EfCrB7LwsDlPdw" name="hexaware">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-PP58U5-EfCrB7LwsDlPdw" name="assetmanagement">
+          <packagedElement xmi:type="uml:Package" xmi:id="_-Pt0AE5-EfCrB7LwsDlPdw" name="dto">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fmqIU5-EfCrB7LwsDlPdw" name="AssetAllocationDTO"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fnRMU5-EfCrB7LwsDlPdw" name="AssetDTO"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fn4QU5-EfCrB7LwsDlPdw" name="AssetRequestDTO"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fofUU5-EfCrB7LwsDlPdw" name="AuditRequestDTO"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fpGYU5-EfCrB7LwsDlPdw" name="ServiceRequestDTO"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_-PubEE5-EfCrB7LwsDlPdw" name="entities">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fpGY05-EfCrB7LwsDlPdw" name="Asset"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fptcU5-EfCrB7LwsDlPdw" name="AssetAllocation"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fqUgU5-EfCrB7LwsDlPdw" name="AssetRequest"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fqUg05-EfCrB7LwsDlPdw" name="AuditRequest"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fq7kU5-EfCrB7LwsDlPdw" name="ServiceRequest"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-frioU5-EfCrB7LwsDlPdw" name="Users"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_-PvpME5-EfCrB7LwsDlPdw" name="exceptions">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fsJsU5-EfCrB7LwsDlPdw" name="DataAlreadyExistException"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-fswwU5-EfCrB7LwsDlPdw" name="DataNotFoundException"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_-PvpMU5-EfCrB7LwsDlPdw" name="repositories">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-ftX0U5-EfCrB7LwsDlPdw" name="AssetAllocationRepository"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-ftX005-EfCrB7LwsDlPdw" name="AssetRepository"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-ft-4U5-EfCrB7LwsDlPdw" name="AssetRequestRepository"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-ful8U5-EfCrB7LwsDlPdw" name="AuditRequestRepository"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-fvNAU5-EfCrB7LwsDlPdw" name="ServiceRequestRepository"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-fv0EU5-EfCrB7LwsDlPdw" name="UsersRepository"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_-QX7UE5-EfCrB7LwsDlPdw" name="services">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-QtSgE5-EfCrB7LwsDlPdw" name="AssetManagementServiceImp">
+              <ownedAttribute xmi:id="_-g1ZME5-EfCrB7LwsDlPdw" name="modelMapper" visibility="package" type="_-fkN4U5-EfCrB7LwsDlPdw" association="_-hZZ4E5-EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_-g2AQk5-EfCrB7LwsDlPdw" name="assetRepo" visibility="package" type="_-ftX005-EfCrB7LwsDlPdw" association="_-hbPEE5-EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_-g2nUk5-EfCrB7LwsDlPdw" name="assetAllocationRepo" visibility="package" type="_-ftX0U5-EfCrB7LwsDlPdw" association="_-hb2IU5-EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_-g3OYU5-EfCrB7LwsDlPdw" name="usersRepo" visibility="package" type="_-fv0EU5-EfCrB7LwsDlPdw" association="_-hcdME5-EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_-g3OZE5-EfCrB7LwsDlPdw" name="auditRequestRepo" visibility="package" type="_-ful8U5-EfCrB7LwsDlPdw" association="_-hcdM05-EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_-g3OZ05-EfCrB7LwsDlPdw" name="assetRequestRepo" visibility="package" type="_-ft-4U5-EfCrB7LwsDlPdw" association="_-hdEQU5-EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_-g31ck5-EfCrB7LwsDlPdw" name="serviceRequestRepo" visibility="package" type="_-fvNAU5-EfCrB7LwsDlPdw" association="_-hdERE5-EfCrB7LwsDlPdw"/>
+              <interfaceRealization xmi:id="_-gPjUE5-EfCrB7LwsDlPdw" client="_-QtSgE5-EfCrB7LwsDlPdw" supplier="_-gHAcE5-EfCrB7LwsDlPdw" contract="_-gHAcE5-EfCrB7LwsDlPdw"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hEpwE5-EfCrB7LwsDlPdw" name="addAsset" specification="_-gSmoE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hFQ0E5-EfCrB7LwsDlPdw" name="assetDto" type="_-fnRMU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hFQ0U5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to add Asset with asset number: {}&quot;, assetDto.getAssetNo());&#xD;
+		Asset oldAsset = assetRepo.findByAssetName(assetDto.getAssetName());&#xD;
+		if (oldAsset != null &amp;&amp; oldAsset.getAssetName().equals(assetDto.getAssetName())&#xD;
+				&amp;&amp; oldAsset.getAssetModel().equals(assetDto.getAssetModel())) {&#xD;
+			log.warn(&quot;Asset already exist&quot;);&#xD;
+			throw new DataAlreadyExistException(&quot;Asset already exist&quot;);&#xD;
+		}&#xD;
+		Asset asset = modelMapper.map(assetDto, Asset.class);&#xD;
+&#xD;
+		asset = assetRepo.save(asset);&#xD;
+&#xD;
+		log.info(&quot;Asset added successfully with asset number: {}&quot;, asset.getAssetNo());&#xD;
+		return modelMapper.map(asset, AssetDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hIUIE5-EfCrB7LwsDlPdw" name="updateAsset" specification="_-gWRAE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hIUIU5-EfCrB7LwsDlPdw" name="asset" type="_-fnRMU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hIUIk5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to update asset with asset number: {}&quot;, asset.getAssetNo());&#xD;
+&#xD;
+		Asset updatedAsset = modelMapper.map(asset, Asset.class);&#xD;
+		updatedAsset = assetRepo.save(updatedAsset);&#xD;
+		log.info(&quot;Asset updated successfully with asset number: {}&quot;, asset.getAssetNo());&#xD;
+		return modelMapper.map(updatedAsset, AssetDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hI7ME5-EfCrB7LwsDlPdw" name="updateAssetAvailability" specification="_-gYGMU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hI7MU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hI7Mk5-EfCrB7LwsDlPdw" name="availability">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hI7M05-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to update asset availability with asset number: {}&quot;, assetNo);&#xD;
+&#xD;
+		Asset asset = assetRepo.findById(assetNo).orElseThrow(() -> {&#xD;
+			log.error(&quot;Asset not found with asset number: {}&quot;, assetNo);&#xD;
+			return new DataNotFoundException(&quot;Requested asset not found&quot;);&#xD;
+		});&#xD;
+&#xD;
+		asset.setAvailability(availability);&#xD;
+&#xD;
+		log.info(&quot;Asset availability updated successfully with asset number: {}&quot;, assetNo);&#xD;
+&#xD;
+		assetRepo.save(asset);&#xD;
+&#xD;
+		return modelMapper.map(asset, AssetDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hJiQE5-EfCrB7LwsDlPdw" name="getAllAssets" specification="_-RYn8E5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hJiQU5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hJiQk5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetch all assets&quot;);&#xD;
+&#xD;
+		List&lt;Asset> assetList = assetRepo.findAll();&#xD;
+		if (assetList.isEmpty()) {&#xD;
+			log.warn(&quot;No asset found in the database&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Fetched all assets&quot;);&#xD;
+&#xD;
+		return assetList.stream().map(asset -> modelMapper.map(asset, AssetDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hKJUE5-EfCrB7LwsDlPdw" name="getAssetByAssetNo" specification="_-gYtQk5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hKJUU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hKJUk5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching asset with asset number: {}&quot;, assetNo);&#xD;
+&#xD;
+		Asset asset = assetRepo.findById(assetNo).orElseThrow(() -> {&#xD;
+			log.warn(&quot;No asset found with asset number: {}&quot;, assetNo);&#xD;
+			return new DataNotFoundException(&quot;No asset found with asset number &quot; + assetNo);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;Fetched asset with asset number: {}&quot;, assetNo);&#xD;
+&#xD;
+		return modelMapper.map(asset, AssetDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hKwYE5-EfCrB7LwsDlPdw" name="getAssetsByCategory" specification="_-Rk1ME5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hKwYU5-EfCrB7LwsDlPdw" name="category">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hKwYk5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hKwY05-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching asset by category: {}&quot;, category);&#xD;
+&#xD;
+		List&lt;Asset> assetList = assetRepo.findAllByCategory(category);&#xD;
+		if (assetList.isEmpty()) {&#xD;
+			log.warn(&quot;No asset on {} category found in the database&quot;, category);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Fetched asset with category: {}&quot;, category);&#xD;
+&#xD;
+		return assetList.stream().map(asset -> modelMapper.map(asset, AssetDTO.class)).collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hKwZE5-EfCrB7LwsDlPdw" name="getAssetsByAvailability" specification="_-RofkE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hKwZU5-EfCrB7LwsDlPdw" name="availability">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hKwZk5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hKwZ05-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching asset by availability: {}&quot;, availability);&#xD;
+&#xD;
+		List&lt;Asset> assetList = assetRepo.findAllByAvailability(availability);&#xD;
+		if (assetList.isEmpty()) {&#xD;
+			log.warn(&quot;No asset available to assign&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Fetched asset with availability: {}&quot;, availability);&#xD;
+&#xD;
+		return assetList.stream().map(asset -> modelMapper.map(asset, AssetDTO.class)).collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hLXcE5-EfCrB7LwsDlPdw" name="deleteAssetByAssetNo" specification="_-gZ7YE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hLXcU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hLXck5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to delete asset with asset number: {}&quot;, assetNo);&#xD;
+&#xD;
+		assetRepo.findById(assetNo).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Asset with asset number {} does not exists&quot;, assetNo);&#xD;
+			return new DataNotFoundException(&quot;Requested asset not found&quot;);&#xD;
+		});&#xD;
+		assetAllocationRepo.deleteByAsset_AssetNo(assetNo);&#xD;
+		assetRequestRepo.deleteByAsset_AssetNo(assetNo);&#xD;
+		auditRequestRepo.deleteByAsset_AssetNo(assetNo);&#xD;
+		serviceRequestRepo.deleteByAsset_AssetNo(assetNo);&#xD;
+&#xD;
+		assetRepo.deleteById(assetNo);&#xD;
+&#xD;
+		log.info(&quot;Asset with ID {} deleted successfully&quot;, assetNo);&#xD;
+&#xD;
+		return &quot;Asset with asset number &quot; + assetNo + &quot; is deleted&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hLXc05-EfCrB7LwsDlPdw" name="allocateAssetToUser" specification="_-gaicE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hLXdE5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hLXdU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hLXdk5-EfCrB7LwsDlPdw" name="returnDate" type="_-ff8cE5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hLXd05-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Allocating asset {} to user {} with return date {}&quot;, assetNo, usersId, returnDate);&#xD;
+&#xD;
+		Users user = usersRepo.findById(usersId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;User with ID: {} not found&quot;, usersId);&#xD;
+			return new DataNotFoundException(&quot;No user found with ID: &quot; + usersId);&#xD;
+		});&#xD;
+&#xD;
+		Asset asset = assetRepo.findById(assetNo).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Asset with assetNo: {} not found&quot;, assetNo);&#xD;
+			return new DataNotFoundException(&quot;No asset found with assetNo: &quot; + assetNo);&#xD;
+		});&#xD;
+&#xD;
+		AssetAllocation allocation = new AssetAllocation();&#xD;
+		allocation.setReturnDate(returnDate);&#xD;
+		allocation.setUser(user);&#xD;
+		allocation.setAsset(asset);&#xD;
+&#xD;
+		if (asset.getAvailability().equals(&quot;unavailable&quot;)) {&#xD;
+			throw new DataNotFoundException(&quot;Asset already assigned to another user&quot;);&#xD;
+		}&#xD;
+&#xD;
+		allocation = assetAllocationRepo.save(allocation);&#xD;
+		asset.setAvailability(&quot;unavailable&quot;);&#xD;
+		assetRepo.save(asset);&#xD;
+&#xD;
+		log.info(&quot;Allocated asset {} to user {} with return date {}&quot;, assetNo, usersId, returnDate);&#xD;
+&#xD;
+		return modelMapper.map(allocation, AssetAllocationDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hLXeE5-EfCrB7LwsDlPdw" name="getAllAllocations" specification="_-RqUwE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hLXeU5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hLXek5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching all asset allocations&quot;);&#xD;
+&#xD;
+		List&lt;AssetAllocation> assetAllocationList = assetAllocationRepo.findAll();&#xD;
+&#xD;
+		if (assetAllocationList.isEmpty()) {&#xD;
+			log.warn(&quot;No asset allocations found&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No asset allocations available&quot;);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Found {} asset allocations&quot;, assetAllocationList.size());&#xD;
+		return assetAllocationList.stream()&#xD;
+				.map(assetAllocation -> modelMapper.map(assetAllocation, AssetAllocationDTO.class))&#xD;
+				.collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hL-gE5-EfCrB7LwsDlPdw" name="getAllocationByAllocationId" specification="_-gbwkE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hL-gU5-EfCrB7LwsDlPdw" name="allocationId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hL-gk5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching asset allocation with ID: {}&quot;, allocationId);&#xD;
+&#xD;
+		AssetAllocation assetAllocation = assetAllocationRepo.findById(allocationId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Asset allocation not found for ID: {}&quot;, allocationId);&#xD;
+			return new DataNotFoundException(&quot;No asset allocation found with ID: &quot; + allocationId);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;Found asset allocation with ID: {}&quot;, allocationId);&#xD;
+		return modelMapper.map(assetAllocation, AssetAllocationDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hL-g05-EfCrB7LwsDlPdw" name="getAllocationByAssetNo" specification="_-gc-sE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hL-hE5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hL-hU5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching asset allocation with asset number: {}&quot;, assetNo);&#xD;
+&#xD;
+		AssetAllocation assetAllocation = assetAllocationRepo.findByAsset_AssetNo(assetNo).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Asset allocation not found for asset number: {}&quot;, assetNo);&#xD;
+			return new DataNotFoundException(&quot;No asset allocation found with asset number: &quot; + assetNo);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;Found asset allocation with asset number: {}&quot;, assetNo);&#xD;
+		return modelMapper.map(assetAllocation, AssetAllocationDTO.class);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hMlkE5-EfCrB7LwsDlPdw" name="getAllocationsByUserId" specification="_-geM0U5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hMlkU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hMlkk5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hMlk05-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching asset allocations for user ID: {}&quot;, usersId);&#xD;
+&#xD;
+		List&lt;AssetAllocation> assetAllocationList = assetAllocationRepo.findByUser_UsersId(usersId).orElse(null);&#xD;
+		if (assetAllocationList.isEmpty()) {&#xD;
+			log.warn(&quot;No asset allocations found for user ID: {}&quot;, usersId);&#xD;
+			throw new DataNotFoundException(&quot;No asset allocations found for user ID: &quot; + usersId);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Found {} asset allocations for user ID: {}&quot;, assetAllocationList.size(), usersId);&#xD;
+		return assetAllocationList.stream()&#xD;
+				.map(assetAllocation -> modelMapper.map(assetAllocation, AssetAllocationDTO.class))&#xD;
+				.collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hMllE5-EfCrB7LwsDlPdw" name="returnAsset" specification="_-gez4k5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hMllU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hMllk5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Returning asset with asset No: {}&quot;, assetNo);&#xD;
+&#xD;
+		AssetAllocation assetAllocation = assetAllocationRepo.findByAsset_AssetNo(assetNo).orElse(null);&#xD;
+&#xD;
+		assetAllocationRepo.deleteById(assetAllocation.getAllocationId());&#xD;
+		auditRequestRepo.deleteByAsset_AssetNo(assetNo);&#xD;
+		serviceRequestRepo.deleteByAsset_AssetNo(assetNo);&#xD;
+		log.info(&quot;Deleted asset allocation with ID: {}&quot;, assetAllocation.getAllocationId());&#xD;
+&#xD;
+		Asset asset = assetRepo.findById(assetAllocation.getAsset().getAssetNo()).orElse(null);&#xD;
+&#xD;
+		asset.setAvailability(&quot;available&quot;);&#xD;
+		assetRepo.save(asset);&#xD;
+		return &quot;Asset allocation with ID &quot; + assetAllocation.getAllocationId() + &quot; deleted successfully&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hMll05-EfCrB7LwsDlPdw" name="addAuditRequest" specification="_-gfa9E5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hMlmE5-EfCrB7LwsDlPdw" name="auditRequestDto" type="_-fofUU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hMlmU5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Adding a new audit request for userId: {} for the asset ID: {}&quot;, auditRequestDto.getUsersId(),&#xD;
+				auditRequestDto.getAssetNo());&#xD;
+&#xD;
+		AuditRequest auditRequest = new AuditRequest();&#xD;
+&#xD;
+		Asset assetAlreadyExists = assetRepo.findById(auditRequestDto.getAssetNo()).orElse(null);&#xD;
+		Users usersAlreadyExists = usersRepo.findById(auditRequestDto.getUsersId()).orElse(null);&#xD;
+&#xD;
+		boolean assetAllocationExists = assetAllocationRepo&#xD;
+				.existsByUser_UsersIdAndAsset_AssetNo(auditRequestDto.getUsersId(), auditRequestDto.getAssetNo());&#xD;
+		boolean exists = auditRequestRepo.existsByUser_UsersIdAndAsset_AssetNo(auditRequestDto.getUsersId(),&#xD;
+				auditRequestDto.getAssetNo());&#xD;
+&#xD;
+		if (!assetAllocationExists) {&#xD;
+			log.warn(&quot;Asset is not allocated for userId: {}&quot;, auditRequestDto.getUsersId());&#xD;
+			throw new DataAlreadyExistException(&quot;Asset is not allocated to this User&quot;);&#xD;
+		}&#xD;
+		if (exists) {&#xD;
+			log.warn(&quot;Audit request already exists for userId: {} and assetNo: {}&quot;, auditRequestDto.getUsersId(),&#xD;
+					auditRequestDto.getAssetNo());&#xD;
+			throw new DataAlreadyExistException(&quot;An audit request has already been sent for this asset.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		auditRequest.setAsset(assetAlreadyExists);&#xD;
+		auditRequest.setUser(usersAlreadyExists);&#xD;
+		auditRequest = auditRequestRepo.save(auditRequest);&#xD;
+&#xD;
+		log.info(&quot;Audit request saved with ID: {}&quot;, auditRequest.getRequestId());&#xD;
+&#xD;
+		return modelMapper.map(auditRequest, AuditRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNMoE5-EfCrB7LwsDlPdw" name="getAllAuditRequests" specification="_-RsJ8E5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNMoU5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hNMok5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching all audit requests&quot;);&#xD;
+&#xD;
+		List&lt;AuditRequest> auditRequestList = auditRequestRepo.findAll();&#xD;
+&#xD;
+		if (auditRequestList.isEmpty()) {&#xD;
+			log.warn(&quot;No audit requests found in the database.&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No audit requests available to display.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		List&lt;AuditRequestDTO> auditRequestDtoList = auditRequestList.stream()&#xD;
+				.map(auditRequest -> modelMapper.map(auditRequest, AuditRequestDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+		log.info(&quot;Successfully retrieved {} audit requests.&quot;, auditRequestDtoList.size());&#xD;
+		return auditRequestDtoList;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNMo05-EfCrB7LwsDlPdw" name="getAuditRequestsByUsersId" specification="_-ghQIE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNMpE5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hNMpU5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hNMpk5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching audit requests for usersId: {}&quot;, usersId);&#xD;
+&#xD;
+		List&lt;AuditRequest> auditRequestList = auditRequestRepo.findAllByUser_UsersId(usersId);&#xD;
+&#xD;
+		if (auditRequestList.isEmpty()) {&#xD;
+			log.warn(&quot;No audit requests found for usersId: {}&quot;, usersId);&#xD;
+			throw new DataNotFoundException(&quot;No audit requests found for userId: &quot; + usersId);&#xD;
+		}&#xD;
+&#xD;
+		List&lt;AuditRequestDTO> auditRequestDtoList = auditRequestList.stream()&#xD;
+				.map(auditRequest -> modelMapper.map(auditRequest, AuditRequestDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+		log.info(&quot;Successfully retrieved {} audit requests for userId: {}&quot;, auditRequestDtoList.size(), usersId);&#xD;
+		return auditRequestDtoList;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNMp05-EfCrB7LwsDlPdw" name="getAuditRequestsByStatus" specification="_-RtYEE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNMqE5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hNMqU5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hNMqk5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching audit requests with status: {}&quot;, status);&#xD;
+&#xD;
+		List&lt;AuditRequest> auditRequestList = auditRequestRepo.findAllByStatus(status);&#xD;
+&#xD;
+		if (auditRequestList.isEmpty()) {&#xD;
+			log.warn(&quot;No audit requests found with status: {}&quot;, status);&#xD;
+			throw new DataNotFoundException(&quot;No audit requests found with status: &quot; + status);&#xD;
+		}&#xD;
+&#xD;
+		List&lt;AuditRequestDTO> auditRequestDtoList = auditRequestList.stream()&#xD;
+				.map(auditRequest -> modelMapper.map(auditRequest, AuditRequestDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+		log.info(&quot;Successfully retrieved {} audit requests with status: {}&quot;, auditRequestDtoList.size(), status);&#xD;
+		return auditRequestDtoList;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNzsE5-EfCrB7LwsDlPdw" name="getAuditRequestsByRequestId" specification="_-gieQE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNzsU5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hNzsk5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching audit request with ID: {}&quot;, requestId);&#xD;
+&#xD;
+		AuditRequest auditRequest = auditRequestRepo.findById(requestId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Audit request not found with ID: {}&quot;, requestId);&#xD;
+			return new DataNotFoundException(&quot;Audit request not found with ID: &quot; + requestId);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;Audit request found with ID: {}&quot;, requestId);&#xD;
+&#xD;
+		return modelMapper.map(auditRequest, AuditRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNzs05-EfCrB7LwsDlPdw" name="updateAuditRequestStatus" specification="_-gkTcE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNztE5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hNztU5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hNztk5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to update audit request status. Request ID: {}, New Status: {}&quot;, requestId, status);&#xD;
+&#xD;
+		AuditRequest auditRequest = auditRequestRepo.findById(requestId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Audit request with ID {} not found for status update&quot;, requestId);&#xD;
+			return new DataNotFoundException(&quot;Audit request not found with ID: &quot; + requestId);&#xD;
+		});&#xD;
+&#xD;
+		auditRequest.setStatus(status);&#xD;
+		auditRequest = auditRequestRepo.save(auditRequest);&#xD;
+&#xD;
+		log.info(&quot;Successfully updated audit request ID: {} with new status: {}&quot;, requestId, status);&#xD;
+		return modelMapper.map(auditRequest, AuditRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNzt05-EfCrB7LwsDlPdw" name="addAssetRequest" specification="_-gk6g05-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNzuE5-EfCrB7LwsDlPdw" name="assetRequestDto" type="_-fn4QU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hNzuU5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Adding a new asset request for userId: {} for the asset ID: {}&quot;, assetRequestDto.getUsersId(),&#xD;
+				assetRequestDto.getAssetNo());&#xD;
+&#xD;
+		AssetRequest assetRequest = new AssetRequest();&#xD;
+&#xD;
+		Asset assetAlreadyExists = assetRepo.findById(assetRequestDto.getAssetNo()).orElse(null);&#xD;
+		Users usersAlreadyExists = usersRepo.findById(assetRequestDto.getUsersId()).orElse(null);&#xD;
+&#xD;
+		boolean exists = assetRequestRepo.existsByUser_UsersIdAndAsset_AssetNo(assetRequestDto.getUsersId(),&#xD;
+				assetRequestDto.getAssetNo());&#xD;
+&#xD;
+		if (exists) {&#xD;
+			log.warn(&quot;Asset request already exists for userId: {} and assetNo: {}&quot;, assetRequestDto.getUsersId(),&#xD;
+					assetRequestDto.getAssetNo());&#xD;
+			throw new DataAlreadyExistException(&quot;An asset request has already been sent for this asset.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		assetRequest.setAsset(assetAlreadyExists);&#xD;
+		assetRequest.setUser(usersAlreadyExists);&#xD;
+		assetRequest = assetRequestRepo.save(assetRequest);&#xD;
+&#xD;
+		log.info(&quot;Asset request saved with ID: {}&quot;, assetRequest.getRequestId());&#xD;
+&#xD;
+		return modelMapper.map(assetRequest, AssetRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNzuk5-EfCrB7LwsDlPdw" name="getAllAssetRequests" specification="_-RvNQE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNzu05-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hNzvE5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching all Asset requests&quot;);&#xD;
+&#xD;
+		List&lt;AssetRequest> assetRequestList = assetRequestRepo.findAll();&#xD;
+&#xD;
+		if (assetRequestList.isEmpty()) {&#xD;
+			log.warn(&quot;No Asset requests found in the database.&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No Asset requests available to display.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		List&lt;AssetRequestDTO> assetRequestDtoList = assetRequestList.stream()&#xD;
+				.map(assetRequest -> modelMapper.map(assetRequest, AssetRequestDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+		log.info(&quot;Successfully retrieved {} Asset requests.&quot;, assetRequestDtoList.size());&#xD;
+		return assetRequestDtoList;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNzvU5-EfCrB7LwsDlPdw" name="getAssetRequestsByUsersId" specification="_-gmIoE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNzvk5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hNzv05-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hNzwE5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching Asset requests for usersId: {}&quot;, usersId);&#xD;
+&#xD;
+		List&lt;AssetRequest> assetRequestList = assetRequestRepo.findAllByUser_UsersId(usersId);&#xD;
+&#xD;
+		if (assetRequestList.isEmpty()) {&#xD;
+			log.warn(&quot;No Asset requests found for usersId: {}&quot;, usersId);&#xD;
+			throw new DataNotFoundException(&quot;No Asset requests found for userId: &quot; + usersId);&#xD;
+		}&#xD;
+&#xD;
+		List&lt;AssetRequestDTO> assetRequestDtoList = assetRequestList.stream()&#xD;
+				.map(assetRequest -> modelMapper.map(assetRequest, AssetRequestDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+		log.info(&quot;Successfully retrieved {} Asset requests for userId: {}&quot;, assetRequestDtoList.size(), usersId);&#xD;
+		return assetRequestDtoList;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hNzwU5-EfCrB7LwsDlPdw" name="getAssetRequestsByStatus" specification="_-RxCcE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hNzwk5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hNzw05-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hNzxE5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching Asset requests with status: {}&quot;, status);&#xD;
+&#xD;
+		List&lt;AssetRequest> assetRequestList = assetRequestRepo.findAllByStatus(status);&#xD;
+&#xD;
+		if (assetRequestList.isEmpty()) {&#xD;
+			log.warn(&quot;No Asset requests found with status: {}&quot;, status);&#xD;
+			throw new DataNotFoundException(&quot;No Asset requests found with status: &quot; + status);&#xD;
+		}&#xD;
+&#xD;
+		List&lt;AssetRequestDTO> assetRequestDtoList = assetRequestList.stream()&#xD;
+				.map(assetRequest -> modelMapper.map(assetRequest, AssetRequestDTO.class)).collect(Collectors.toList());&#xD;
+&#xD;
+		log.info(&quot;Successfully retrieved {} Asset requests with status: {}&quot;, assetRequestDtoList.size(), status);&#xD;
+		return assetRequestDtoList;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hOawE5-EfCrB7LwsDlPdw" name="getAssetRequestsByRequestId" specification="_-gmvsk5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hOawU5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hOawk5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching Asset request with ID: {}&quot;, requestId);&#xD;
+&#xD;
+		AssetRequest assetRequest = assetRequestRepo.findById(requestId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Asset request not found with ID: {}&quot;, requestId);&#xD;
+			return new DataNotFoundException(&quot;Asset request not found with ID: &quot; + requestId);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;Asset request found with ID: {}&quot;, requestId);&#xD;
+&#xD;
+		return modelMapper.map(assetRequest, AssetRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hOaw05-EfCrB7LwsDlPdw" name="updateAssetRequestStatus" specification="_-gnWw05-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hOaxE5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hOaxU5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hOaxk5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to update Asset request status. Request ID: {}, New Status: {}&quot;, requestId, status);&#xD;
+&#xD;
+		AssetRequest assetRequest = assetRequestRepo.findById(requestId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Asset request with ID {} not found for status update&quot;, requestId);&#xD;
+			return new DataNotFoundException(&quot;Asset request not found with ID: &quot; + requestId);&#xD;
+		});&#xD;
+&#xD;
+		assetRequest.setStatus(status);&#xD;
+		assetRequest = assetRequestRepo.save(assetRequest);&#xD;
+&#xD;
+		if (status.equalsIgnoreCase(&quot;Approved&quot;)) {&#xD;
+			AssetAllocation allocation = new AssetAllocation();&#xD;
+			allocation.setReturnDate(LocalDate.now().plusMonths(1));&#xD;
+			allocation.setAsset(assetRequest.getAsset());&#xD;
+			allocation.setUser(assetRequest.getUser());&#xD;
+			assetAllocationRepo.save(allocation);&#xD;
+&#xD;
+			Asset asset = assetRequest.getAsset();&#xD;
+			asset.setAvailability(&quot;unavailable&quot;);&#xD;
+			assetRepo.save(asset);&#xD;
+&#xD;
+			assetRequestRepo.delete(assetRequest);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Successfully updated Asset request ID: {} with new status: {}&quot;, requestId, status);&#xD;
+		return modelMapper.map(assetRequest, AssetRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hOax05-EfCrB7LwsDlPdw" name="addServiceRequest" specification="_-gpL8E5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hOayE5-EfCrB7LwsDlPdw" name="serviceRequestDto" type="_-fpGYU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hOayU5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to add service request for userId={} and assetNo={}&quot;, serviceRequestDto.getUsersId(),&#xD;
+				serviceRequestDto.getAssetNo());&#xD;
+&#xD;
+		Users user = usersRepo.findById(serviceRequestDto.getUsersId()).orElseThrow(() -> {&#xD;
+			log.error(&quot;User with ID {} not found&quot;, serviceRequestDto.getUsersId());&#xD;
+			return new DataNotFoundException(&quot;User does not exist&quot;);&#xD;
+		});&#xD;
+&#xD;
+		Asset asset = assetRepo.findById(serviceRequestDto.getAssetNo()).orElseThrow(() -> {&#xD;
+			log.error(&quot;Asset with assetNo {} not found&quot;, serviceRequestDto.getAssetNo());&#xD;
+			return new DataNotFoundException(&quot;Asset does not exist&quot;);&#xD;
+		});&#xD;
+&#xD;
+		boolean exists = serviceRequestRepo.existsByUser_UsersIdAndAsset_AssetNo(user.getUsersId(), asset.getAssetNo());&#xD;
+		if (exists) {&#xD;
+			log.warn(&quot;Service request already exists for userId={} and assetNo={}&quot;, user.getUsersId(),&#xD;
+					asset.getAssetNo());&#xD;
+			throw new DataAlreadyExistException(&quot;Service request already exists&quot;);&#xD;
+		}&#xD;
+&#xD;
+		ServiceRequest serviceRequest = new ServiceRequest();&#xD;
+		serviceRequest.setDescription(serviceRequestDto.getDescription());&#xD;
+		serviceRequest.setIssueType(serviceRequestDto.getIssueType());&#xD;
+		serviceRequest.setUser(user);&#xD;
+		serviceRequest.setAsset(asset);&#xD;
+&#xD;
+		serviceRequestRepo.save(serviceRequest);&#xD;
+&#xD;
+		log.info(&quot;Service request created successfully for requestId={}&quot;, serviceRequest.getRequestId());&#xD;
+&#xD;
+		return modelMapper.map(serviceRequest, ServiceRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hPB0E5-EfCrB7LwsDlPdw" name="updateServiceRequestStatus" specification="_-gqaEE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hPB0U5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hPB0k5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hPB005-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Updating status of service request with ID={} to '{}'&quot;, requestId, status);&#xD;
+&#xD;
+		ServiceRequest serviceRequest = serviceRequestRepo.findById(requestId).orElseThrow(() -> {&#xD;
+			log.error(&quot;Service request with ID {} not found&quot;, requestId);&#xD;
+			return new DataNotFoundException(&quot;Service request does not exist&quot;);&#xD;
+		});&#xD;
+&#xD;
+		serviceRequest.setStatus(status);&#xD;
+		serviceRequestRepo.save(serviceRequest);&#xD;
+&#xD;
+		if (status.equalsIgnoreCase(&quot;Completed&quot;)) {&#xD;
+			Asset asset = serviceRequest.getAsset();&#xD;
+			asset.setAvailability(&quot;available&quot;);&#xD;
+			assetRepo.save(asset);&#xD;
+			serviceRequestRepo.delete(serviceRequest);&#xD;
+			log.info(&quot;Service request with ID={} marked as completed and deleted&quot;, requestId);&#xD;
+		}&#xD;
+&#xD;
+		return modelMapper.map(serviceRequest, ServiceRequestDTO.class);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hPB1E5-EfCrB7LwsDlPdw" name="getAllServiceRequests" specification="_-Ry3oE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hPB1U5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hPB1k5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching all service requests&quot;);&#xD;
+&#xD;
+		List&lt;ServiceRequest> serviceRequestDtoList = serviceRequestRepo.findAll();&#xD;
+		if (serviceRequestDtoList.isEmpty()) {&#xD;
+			log.warn(&quot;No service requests found&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+&#xD;
+		return serviceRequestDtoList.stream()&#xD;
+				.map(serviceRequest -> modelMapper.map(serviceRequest, ServiceRequestDTO.class))&#xD;
+				.collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hPB105-EfCrB7LwsDlPdw" name="getAllServiceRequestsByUsersId" specification="_-groMU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hPB2E5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hPB2U5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hPB2k5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching service requests for userId={}&quot;, usersId);&#xD;
+&#xD;
+		List&lt;ServiceRequest> serviceRequestDtoList = serviceRequestRepo.findAllByUser_UsersId(usersId);&#xD;
+		if (serviceRequestDtoList.isEmpty()) {&#xD;
+			log.warn(&quot;No service requests found for userId={}&quot;, usersId);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+		return serviceRequestDtoList.stream()&#xD;
+				.map(serviceRequest -> modelMapper.map(serviceRequest, ServiceRequestDTO.class))&#xD;
+				.collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hPo4E5-EfCrB7LwsDlPdw" name="getServiceRequestsByRequestId" specification="_-gsPQk5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hPo4U5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hPo4k5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching service request with ID={}&quot;, requestId);&#xD;
+&#xD;
+		ServiceRequest serviceRequest = serviceRequestRepo.findById(requestId).orElseThrow(() -> {&#xD;
+&#xD;
+			log.error(&quot;Service request with ID {} not found&quot;, requestId);&#xD;
+			return new DataNotFoundException(&quot;Service request does not exist&quot;);&#xD;
+		});&#xD;
+&#xD;
+		return modelMapper.map(serviceRequest, ServiceRequestDTO.class);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hPo405-EfCrB7LwsDlPdw" name="getAllServiceRequestsByStatus" specification="_-R0s0E5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hPo5E5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hPo5U5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hPo5k5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching service requests with status='{}'&quot;, status);&#xD;
+&#xD;
+		List&lt;ServiceRequest> serviceRequestDtoList = serviceRequestRepo.findAllByStatus(status);&#xD;
+		if (serviceRequestDtoList.isEmpty()) {&#xD;
+			log.warn(&quot;No service requests found with status '{}'&quot;, status);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+		return serviceRequestDtoList.stream()&#xD;
+				.map(serviceRequest -> modelMapper.map(serviceRequest, ServiceRequestDTO.class))&#xD;
+				.collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hPo505-EfCrB7LwsDlPdw" name="getAllServiceRequestsByIssueType" specification="_-R4XME5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hPo6E5-EfCrB7LwsDlPdw" name="issueType">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-hPo6U5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-hPo6k5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetching service requests with issueType='{}'&quot;, issueType);&#xD;
+&#xD;
+		List&lt;ServiceRequest> serviceRequestDtoList = serviceRequestRepo.findAllByIssueType(issueType);&#xD;
+		if (serviceRequestDtoList.isEmpty()) {&#xD;
+			log.warn(&quot;No service requests found with issueType '{}'&quot;, issueType);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+		return serviceRequestDtoList.stream()&#xD;
+				.map(serviceRequest -> modelMapper.map(serviceRequest, ServiceRequestDTO.class))&#xD;
+				.collect(Collectors.toList());&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQP8E5-EfCrB7LwsDlPdw" name="deleteAuditRequest" specification="_-gs2Uk5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQP8U5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hQP8k5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>auditRequestRepo.deleteById(requestId);&#xD;
+		return &quot;Request deleted successfully&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQP805-EfCrB7LwsDlPdw" name="deleteAssetRequest" specification="_-gtdYk5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQP9E5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hQP9U5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>assetRequestRepo.deleteById(requestId);&#xD;
+		return &quot;Request deleted successfully&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQP9k5-EfCrB7LwsDlPdw" name="deleteServiceRequest" specification="_-guEck5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQP905-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-hQP-E5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>serviceRequestRepo.deleteById(requestId);&#xD;
+		return &quot;Request deleted successfully&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQP-U5-EfCrB7LwsDlPdw" name="deleteAssetAllocationByUsersId" specification="_-gvSkE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQP-k5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <language>java</language>
+                <body>List&lt;AssetAllocationDTO> list = getAllocationsByUserId(usersId);&#xD;
+		for (AssetAllocationDTO allocation : list) {&#xD;
+			Asset asset = assetRepo.findById(allocation.getAssetNo()).orElse(null);&#xD;
+			if (asset != null) {&#xD;
+				asset.setAvailability(&quot;available&quot;);&#xD;
+			}&#xD;
+			assetRepo.save(asset);&#xD;
+		}&#xD;
+		assetAllocationRepo.deleteByUser_UsersId(usersId);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQP-05-EfCrB7LwsDlPdw" name="deleteAssetRequestByUsersId" specification="_-gvSlE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQP_E5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <language>java</language>
+                <body>assetRequestRepo.deleteByUser_UsersId(usersId);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQP_U5-EfCrB7LwsDlPdw" name="deleteServiceRequestByUsersId" specification="_-gwgsE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQP_k5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <language>java</language>
+                <body>serviceRequestRepo.deleteByUser_UsersId(usersId);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-hQ3AE5-EfCrB7LwsDlPdw" name="deleteAuditRequestByUsersId" specification="_-gxHwE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-hQ3AU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <language>java</language>
+                <body>auditRequestRepo.deleteByUser_UsersId(usersId);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-RYn8E5-EfCrB7LwsDlPdw" name="getAllAssets" method="_-hJiQE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-RbrQE5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-RcSUE5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-Rk1ME5-EfCrB7LwsDlPdw" name="getAssetsByCategory" method="_-hKwYE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-Rk1MU5-EfCrB7LwsDlPdw" name="category">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-RlcQE5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-RlcQU5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-RofkE5-EfCrB7LwsDlPdw" name="getAssetsByAvailability" method="_-hKwZE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-RofkU5-EfCrB7LwsDlPdw" name="availability">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-RpGoE5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-RpGoU5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-RqUwE5-EfCrB7LwsDlPdw" name="getAllAllocations" method="_-hLXeE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-RqUwU5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-RqUwk5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-RsJ8E5-EfCrB7LwsDlPdw" name="getAllAuditRequests" method="_-hNMoE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-RsJ8U5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-RsJ8k5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-RtYEE5-EfCrB7LwsDlPdw" name="getAuditRequestsByStatus" method="_-hNMp05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-RtYEU5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-Rt_IE5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Rt_IU5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-RvNQE5-EfCrB7LwsDlPdw" name="getAllAssetRequests" method="_-hNzuk5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-Rv0UE5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Rv0UU5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-RxCcE5-EfCrB7LwsDlPdw" name="getAssetRequestsByStatus" method="_-hNzwU5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-RxCcU5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-RxCck5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-RxCc05-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-Ry3oE5-EfCrB7LwsDlPdw" name="getAllServiceRequests" method="_-hPB1E5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-Ry3oU5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Ry3ok5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-R0s0E5-EfCrB7LwsDlPdw" name="getAllServiceRequestsByStatus" method="_-hPo405-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-R0s0U5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-R1T4E5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-R1T4U5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-R4XME5-EfCrB7LwsDlPdw" name="getAllServiceRequestsByIssueType" method="_-hPo505-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-R4XMU5-EfCrB7LwsDlPdw" name="issueType">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-R4-QE5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-R5lUE5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gSmoE5-EfCrB7LwsDlPdw" name="addAsset" method="_-hEpwE5-EfCrB7LwsDlPdw" raisedException="_-fsJsU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gSmoU5-EfCrB7LwsDlPdw" name="assetDto" type="_-fnRMU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gTNsE5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gWRAE5-EfCrB7LwsDlPdw" name="updateAsset" method="_-hIUIE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw _-fsJsU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gW4EE5-EfCrB7LwsDlPdw" name="asset" type="_-fnRMU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gW4EU5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gYGMU5-EfCrB7LwsDlPdw" name="updateAssetAvailability" method="_-hI7ME5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gYGMk5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gYGM05-EfCrB7LwsDlPdw" name="availability">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-gYGNE5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gYtQk5-EfCrB7LwsDlPdw" name="getAssetByAssetNo" method="_-hKJUE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gYtQ05-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gYtRE5-EfCrB7LwsDlPdw" type="_-fnRMU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gZ7YE5-EfCrB7LwsDlPdw" name="deleteAssetByAssetNo" method="_-hLXcE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gZ7YU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gZ7Yk5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gaicE5-EfCrB7LwsDlPdw" name="allocateAssetToUser" method="_-hLXc05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gaicU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gaick5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gaic05-EfCrB7LwsDlPdw" name="returnDate" type="_-ff8cE5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gaidE5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gbwkE5-EfCrB7LwsDlPdw" name="getAllocationByAllocationId" method="_-hL-gE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gbwkU5-EfCrB7LwsDlPdw" name="allocationId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gbwkk5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gc-sE5-EfCrB7LwsDlPdw" name="getAllocationByAssetNo" method="_-hL-g05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gc-sU5-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gdlwE5-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-geM0U5-EfCrB7LwsDlPdw" name="getAllocationsByUserId" method="_-hMlkE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-geM0k5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-geM005-EfCrB7LwsDlPdw" type="_-fmqIU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-geM1E5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gez4k5-EfCrB7LwsDlPdw" name="returnAsset" method="_-hMllE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gez405-EfCrB7LwsDlPdw" name="assetNo" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gfa8E5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gfa9E5-EfCrB7LwsDlPdw" name="addAuditRequest" method="_-hMll05-EfCrB7LwsDlPdw" raisedException="_-fsJsU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-ggCAE5-EfCrB7LwsDlPdw" name="auditRequestDto" type="_-fofUU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-ggCAU5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-ghQIE5-EfCrB7LwsDlPdw" name="getAuditRequestsByUsersId" method="_-hNMo05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-ghQIk5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-ghQI05-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-ghQIU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gieQE5-EfCrB7LwsDlPdw" name="getAuditRequestsByRequestId" method="_-hNzsE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gieQU5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gjFUE5-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gkTcE5-EfCrB7LwsDlPdw" name="updateAuditRequestStatus" method="_-hNzs05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gkTcU5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gkTck5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-gkTc05-EfCrB7LwsDlPdw" type="_-fofUU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gk6g05-EfCrB7LwsDlPdw" name="addAssetRequest" method="_-hNzt05-EfCrB7LwsDlPdw" raisedException="_-fsJsU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gk6hE5-EfCrB7LwsDlPdw" name="assetRequestDto" type="_-fn4QU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-glhkE5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gmIoE5-EfCrB7LwsDlPdw" name="getAssetRequestsByUsersId" method="_-hNzvU5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gmIoU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gmIok5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gmIo05-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gmvsk5-EfCrB7LwsDlPdw" name="getAssetRequestsByRequestId" method="_-hOawE5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gmvs05-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gnWwE5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gnWw05-EfCrB7LwsDlPdw" name="updateAssetRequestStatus" method="_-hOaw05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gn90U5-EfCrB7LwsDlPdw" type="_-fn4QU5-EfCrB7LwsDlPdw" direction="return"/>
+                <ownedParameter xmi:id="_-gnWxE5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gn90E5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gpL8E5-EfCrB7LwsDlPdw" name="addServiceRequest" method="_-hOax05-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw _-fsJsU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gpL8U5-EfCrB7LwsDlPdw" name="serviceRequestDto" type="_-fpGYU5-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gpL8k5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gqaEE5-EfCrB7LwsDlPdw" name="updateServiceRequestStatus" method="_-hPB0E5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gqaEU5-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gqaEk5-EfCrB7LwsDlPdw" name="status">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-gqaE05-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-groMU5-EfCrB7LwsDlPdw" name="getAllServiceRequestsByUsersId" method="_-hPB105-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-groMk5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-groM05-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-groNE5-EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gsPQk5-EfCrB7LwsDlPdw" name="getServiceRequestsByRequestId" method="_-hPo4E5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gsPQ05-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gsPRE5-EfCrB7LwsDlPdw" type="_-fpGYU5-EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gs2Uk5-EfCrB7LwsDlPdw" name="deleteAuditRequest" method="_-hQP8E5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gs2U05-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gs2VE5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gtdYk5-EfCrB7LwsDlPdw" name="deleteAssetRequest" method="_-hQP805-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gtdY05-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gtdZE5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-guEck5-EfCrB7LwsDlPdw" name="deleteServiceRequest" method="_-hQP9k5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-guEc05-EfCrB7LwsDlPdw" name="requestId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_-gurgE5-EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gvSkE5-EfCrB7LwsDlPdw" name="deleteAssetAllocationByUsersId" method="_-hQP-U5-EfCrB7LwsDlPdw" raisedException="_-fswwU5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gvSkU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gvSlE5-EfCrB7LwsDlPdw" name="deleteAssetRequestByUsersId" method="_-hQP-05-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gv5oE5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gwgsE5-EfCrB7LwsDlPdw" name="deleteServiceRequestByUsersId" method="_-hQP_U5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gwgsU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-gxHwE5-EfCrB7LwsDlPdw" name="deleteAuditRequestByUsersId" method="_-hQ3AE5-EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_-gxHwU5-EfCrB7LwsDlPdw" name="usersId" type="_-gXfI05-EfCrB7LwsDlPdw"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_-gHAcE5-EfCrB7LwsDlPdw" name="IAssetManagementService"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hZZ4E5-EfCrB7LwsDlPdw" name="" memberEnd="_-hZZ4U5-EfCrB7LwsDlPdw _-g1ZME5-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hZZ4U5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hZZ4E5-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hbPEE5-EfCrB7LwsDlPdw" name="" memberEnd="_-hbPEU5-EfCrB7LwsDlPdw _-g2AQk5-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hbPEU5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hbPEE5-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hb2IU5-EfCrB7LwsDlPdw" name="" memberEnd="_-hb2Ik5-EfCrB7LwsDlPdw _-g2nUk5-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hb2Ik5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hb2IU5-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hcdME5-EfCrB7LwsDlPdw" name="" memberEnd="_-hcdMU5-EfCrB7LwsDlPdw _-g3OYU5-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hcdMU5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hcdME5-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hcdM05-EfCrB7LwsDlPdw" name="" memberEnd="_-hcdNE5-EfCrB7LwsDlPdw _-g3OZE5-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hcdNE5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hcdM05-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hdEQU5-EfCrB7LwsDlPdw" name="" memberEnd="_-hdEQk5-EfCrB7LwsDlPdw _-g3OZ05-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hdEQk5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hdEQU5-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_-hdERE5-EfCrB7LwsDlPdw" name="" memberEnd="_-hdERU5-EfCrB7LwsDlPdw _-g31ck5-EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_-hdERU5-EfCrB7LwsDlPdw" name="" type="_-QtSgE5-EfCrB7LwsDlPdw" association="_-hdERE5-EfCrB7LwsDlPdw"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-PZD4E5-EfCrB7LwsDlPdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PZD4U5-EfCrB7LwsDlPdw" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-ff8cE5-EfCrB7LwsDlPdw" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PZD4k5-EfCrB7LwsDlPdw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-PaSAE5-EfCrB7LwsDlPdw" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_-fjm0U5-EfCrB7LwsDlPdw" name="Collectors"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-fi_wE5-EfCrB7LwsDlPdw" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-gXfIk5-EfCrB7LwsDlPdw" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_-gXfI05-EfCrB7LwsDlPdw" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-Pd8YE5-EfCrB7LwsDlPdw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PejcE5-EfCrB7LwsDlPdw" name="modelmapper">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-fkN4U5-EfCrB7LwsDlPdw" name="ModelMapper"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PejcU5-EfCrB7LwsDlPdw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-Pg_sE5-EfCrB7LwsDlPdw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_-Pi04E5-EfCrB7LwsDlPdw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_-PmfQE5-EfCrB7LwsDlPdw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_-fk08U5-EfCrB7LwsDlPdw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-PnGUE5-EfCrB7LwsDlPdw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_-PoUcE5-EfCrB7LwsDlPdw" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_-PoUcU5-EfCrB7LwsDlPdw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_-flcAU5-EfCrB7LwsDlPdw" name="Modifying"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-PqwsE5-EfCrB7LwsDlPdw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-fmDEU5-EfCrB7LwsDlPdw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-PwQQE5-EfCrB7LwsDlPdw" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PwQQU5-EfCrB7LwsDlPdw" name="transaction">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-fwbIU5-EfCrB7LwsDlPdw" name="Transactional"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-PwQQk5-EfCrB7LwsDlPdw" name="lombok">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-PwQQ05-EfCrB7LwsDlPdw" name="extern">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-PwQRE5-EfCrB7LwsDlPdw" name="slf4j">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-fxCME5-EfCrB7LwsDlPdw" name="Slf4j"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_-Qt5kE5-EfCrB7LwsDlPdw">
+      <eAnnotations xmi:id="_-Q0AME5-EfCrB7LwsDlPdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-RBbkE5-EfCrB7LwsDlPdw" base_Element="_-QtSgE5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_-ReHgE5-EfCrB7LwsDlPdw" base_Element="_-RYn8E5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RjAAE5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RnRcE5-EfCrB7LwsDlPdw" base_Element="_-Rk1ME5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-Rn4gE5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RpGok5-EfCrB7LwsDlPdw" base_Element="_-RofkE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RpGo05-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-Rq70E5-EfCrB7LwsDlPdw" base_Element="_-RqUwE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-Rq70U5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RsxAE5-EfCrB7LwsDlPdw" base_Element="_-RsJ8E5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RsxAU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RumME5-EfCrB7LwsDlPdw" base_Element="_-RtYEE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RumMU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RwbYE5-EfCrB7LwsDlPdw" base_Element="_-RvNQE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RwbYU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RxpgE5-EfCrB7LwsDlPdw" base_Element="_-RxCcE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RxpgU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-RzesE5-EfCrB7LwsDlPdw" base_Element="_-Ry3oE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-RzesU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-R2iAE5-EfCrB7LwsDlPdw" base_Element="_-R0s0E5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-R3JEE5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-R6zcE5-EfCrB7LwsDlPdw" base_Element="_-R4XME5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-R6zcU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-R8ooE5-EfCrB7LwsDlPdw" base_Element="_-QtSgE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-R8ooU5-EfCrB7LwsDlPdw" name="Service"/>
+    <annotations xmi:id="_-R8ook5-EfCrB7LwsDlPdw" name="Slf4j"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-fhKkE5-EfCrB7LwsDlPdw" base_Element="_-ff8cE5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fjm0E5-EfCrB7LwsDlPdw" base_Element="_-fi_wE5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fkN4E5-EfCrB7LwsDlPdw" base_Element="_-fjm0U5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fk08E5-EfCrB7LwsDlPdw" base_Element="_-fkN4U5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-flcAE5-EfCrB7LwsDlPdw" base_Element="_-fk08U5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fmDEE5-EfCrB7LwsDlPdw" base_Element="_-flcAU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fmqIE5-EfCrB7LwsDlPdw" base_Element="_-fmDEU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fnRME5-EfCrB7LwsDlPdw" base_Element="_-fmqIU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fn4QE5-EfCrB7LwsDlPdw" base_Element="_-fnRMU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fofUE5-EfCrB7LwsDlPdw" base_Element="_-fn4QU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fpGYE5-EfCrB7LwsDlPdw" base_Element="_-fofUU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fpGYk5-EfCrB7LwsDlPdw" base_Element="_-fpGYU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fptcE5-EfCrB7LwsDlPdw" base_Element="_-fpGY05-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fqUgE5-EfCrB7LwsDlPdw" base_Element="_-fptcU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fqUgk5-EfCrB7LwsDlPdw" base_Element="_-fqUgU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fq7kE5-EfCrB7LwsDlPdw" base_Element="_-fqUg05-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-frioE5-EfCrB7LwsDlPdw" base_Element="_-fq7kU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fsJsE5-EfCrB7LwsDlPdw" base_Element="_-frioU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fswwE5-EfCrB7LwsDlPdw" base_Element="_-fsJsU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-ftX0E5-EfCrB7LwsDlPdw" base_Element="_-fswwU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-ftX0k5-EfCrB7LwsDlPdw" base_Element="_-ftX0U5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-ft-4E5-EfCrB7LwsDlPdw" base_Element="_-ftX005-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-ful8E5-EfCrB7LwsDlPdw" base_Element="_-ft-4U5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fvNAE5-EfCrB7LwsDlPdw" base_Element="_-ful8U5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fv0EE5-EfCrB7LwsDlPdw" base_Element="_-fvNAU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fwbIE5-EfCrB7LwsDlPdw" base_Element="_-fv0EU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fwbIk5-EfCrB7LwsDlPdw" base_Element="_-fwbIU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-fxpQE5-EfCrB7LwsDlPdw" base_Element="_-fxCME5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-gHngE5-EfCrB7LwsDlPdw" base_Element="_-gHAcE5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_-gVp8E5-EfCrB7LwsDlPdw" base_Element="_-gSmoE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gVp8U5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gXfIE5-EfCrB7LwsDlPdw" base_Element="_-gWRAE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gXfIU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-gYGME5-EfCrB7LwsDlPdw" base_Element="_-gXfI05-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_-gYtQE5-EfCrB7LwsDlPdw" base_Element="_-gYGMU5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gYtQU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gZUUE5-EfCrB7LwsDlPdw" base_Element="_-gYtQk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gZUUU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gZ7Y05-EfCrB7LwsDlPdw" base_Element="_-gZ7YE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gZ7ZE5-EfCrB7LwsDlPdw" name="Modifying"/>
+    <annotations xmi:id="_-gZ7ZU5-EfCrB7LwsDlPdw" name="Transactional"/>
+    <annotations xmi:id="_-gZ7Zk5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gbJgE5-EfCrB7LwsDlPdw" base_Element="_-gaicE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gbJgU5-EfCrB7LwsDlPdw" name="Override"/>
+    <annotations xmi:id="_-gbJgk5-EfCrB7LwsDlPdw" name="Transactional"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gcXoE5-EfCrB7LwsDlPdw" base_Element="_-gbwkE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gcXoU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gdlwU5-EfCrB7LwsDlPdw" base_Element="_-gc-sE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-geM0E5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gez4E5-EfCrB7LwsDlPdw" base_Element="_-geM0U5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gez4U5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gfa8U5-EfCrB7LwsDlPdw" base_Element="_-gez4k5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gfa8k5-EfCrB7LwsDlPdw" name="Override"/>
+    <annotations xmi:id="_-gfa805-EfCrB7LwsDlPdw" name="Transactional"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-ggpEE5-EfCrB7LwsDlPdw" base_Element="_-gfa9E5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-ggpEU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gh3ME5-EfCrB7LwsDlPdw" base_Element="_-ghQIE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gh3MU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gjsYE5-EfCrB7LwsDlPdw" base_Element="_-gieQE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gjsYU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gk6gE5-EfCrB7LwsDlPdw" base_Element="_-gkTcE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gk6gU5-EfCrB7LwsDlPdw" name="Override"/>
+    <annotations xmi:id="_-gk6gk5-EfCrB7LwsDlPdw" name="Transactional"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-glhkU5-EfCrB7LwsDlPdw" base_Element="_-gk6g05-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-glhkk5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gmvsE5-EfCrB7LwsDlPdw" base_Element="_-gmIoE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gmvsU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gnWwU5-EfCrB7LwsDlPdw" base_Element="_-gmvsk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gnWwk5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gn90k5-EfCrB7LwsDlPdw" base_Element="_-gnWw05-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gn9005-EfCrB7LwsDlPdw" name="Override"/>
+    <annotations xmi:id="_-gn91E5-EfCrB7LwsDlPdw" name="Transactional"/>
+    <annotations xmi:id="_-gok4E5-EfCrB7LwsDlPdw" name="Modifying"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gpzAE5-EfCrB7LwsDlPdw" base_Element="_-gpL8E5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gpzAU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-grBIE5-EfCrB7LwsDlPdw" base_Element="_-gqaEE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-grBIU5-EfCrB7LwsDlPdw" name="Override"/>
+    <annotations xmi:id="_-groME5-EfCrB7LwsDlPdw" name="Transactional"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gsPQE5-EfCrB7LwsDlPdw" base_Element="_-groMU5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gsPQU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gs2UE5-EfCrB7LwsDlPdw" base_Element="_-gsPQk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gs2UU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gtdYE5-EfCrB7LwsDlPdw" base_Element="_-gs2Uk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gtdYU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-guEcE5-EfCrB7LwsDlPdw" base_Element="_-gtdYk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-guEcU5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gurgU5-EfCrB7LwsDlPdw" base_Element="_-guEck5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gurgk5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gvSkk5-EfCrB7LwsDlPdw" base_Element="_-gvSkE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gvSk05-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gv5oU5-EfCrB7LwsDlPdw" base_Element="_-gvSlE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gv5ok5-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gwgsk5-EfCrB7LwsDlPdw" base_Element="_-gwgsE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gwgs05-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-gxHwk5-EfCrB7LwsDlPdw" base_Element="_-gxHwE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-gxHw05-EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g2AQE5-EfCrB7LwsDlPdw" base_Element="_-g1ZME5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g2AQU5-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g2nUE5-EfCrB7LwsDlPdw" base_Element="_-g2AQk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g2nUU5-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g2nU05-EfCrB7LwsDlPdw" base_Element="_-g2nUk5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g3OYE5-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g3OYk5-EfCrB7LwsDlPdw" base_Element="_-g3OYU5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g3OY05-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g3OZU5-EfCrB7LwsDlPdw" base_Element="_-g3OZE5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g3OZk5-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g31cE5-EfCrB7LwsDlPdw" base_Element="_-g3OZ05-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g31cU5-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_-g31c05-EfCrB7LwsDlPdw" base_Element="_-g31ck5-EfCrB7LwsDlPdw">
+    <annotations xmi:id="_-g31dE5-EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-haoAE5-EfCrB7LwsDlPdw" base_Element="_-hZZ4E5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-hb2IE5-EfCrB7LwsDlPdw" base_Element="_-hbPEE5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-hb2I05-EfCrB7LwsDlPdw" base_Element="_-hb2IU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-hcdMk5-EfCrB7LwsDlPdw" base_Element="_-hcdME5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-hdEQE5-EfCrB7LwsDlPdw" base_Element="_-hcdM05-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-hdEQ05-EfCrB7LwsDlPdw" base_Element="_-hdEQU5-EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_-hdERk5-EfCrB7LwsDlPdw" base_Element="_-hdERE5-EfCrB7LwsDlPdw"/>
+</xmi:XMI>

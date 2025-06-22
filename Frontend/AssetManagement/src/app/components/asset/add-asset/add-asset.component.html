@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Asset</title>
+</head>
+
+<body>
+  <div class="alert success" *ngIf="submitted">Asset added successfully!</div>
+  <div class="alert error" *ngIf="isError">Asset already exists!</div>
+  <h1>Add Asset</h1>
+  <form class=" container form" [formGroup]="myForm" (ngSubmit)="submit(myForm.value)">
+    <div>
+      <label for="assetName">Asset Name</label>
+      <input type="text" placeholder="Asset name" id="assetName" required formControlName="assetName">
+      <span style="color: red;" *ngIf="myForm.get('assetName')?.invalid && myForm.get('assetName')?.touched">Asset name
+        is invalid</span><br>
+    </div>
+
+    <div>
+      <label for="category">Category</label>
+      <select name="category" id="category" required formControlName="category" aria-placeholder="select">
+        <option value="" disabled selected>--- Select ---</option>
+        <option value="Laptop">Laptop</option>
+        <option value="Furniture">Furniture</option>
+        <option value="Car">Car</option>
+        <option value="Gadget">Gadget</option>
+      </select>
+      <span style="color: red;" *ngIf="myForm.get('category')?.invalid && myForm.get('category')?.touched">Category
+        is invalid</span><br>
+    </div>
+
+    <div>
+      <label for="assetModel">Asset Model</label>
+      <input type="text" placeholder="Asset model" id="assetModel" required formControlName="assetModel">
+      <span style="color: red;" *ngIf="myForm.get('assetModel')?.invalid && myForm.get('assetModel')?.touched">Asset
+        model
+        is invalid</span><br>
+    </div>
+
+    <div>
+      <label for="manufacturingDate">Manufacturing Date</label>
+      <input type="date" placeholder="Manufacturing date" id="manufacturingDate" required
+        formControlName="manufacturingDate" [max]="today">
+      <span style="color: red;"
+        *ngIf="myForm.get('manufacturingDate')?.invalid && myForm.get('manufacturingDate')?.touched">Manufacturing date
+        is invalid</span><br>
+    </div>
+
+
+    <div>
+      <label for="expiryDate">Expiry Date</label>
+      <input type="date" placeholder="Expiry date" id="expiryDate" [min]="today">
+    </div>
+
+    <div>
+      <label for="assetValue">Asset Value</label>
+      <input type="number" placeholder="Asset value" id="assetValue" required formControlName="assetValue">
+      <span style="color: red;" *ngIf="myForm.get('assetValue')?.invalid && myForm.get('assetValue')?.touched">Asset
+        value
+        is invalid</span><br>
+    </div>
+
+    <div>
+      <label for="availability">Availability</label>
+      <select name="availability" id="availability" required formControlName="availability">
+        <option value="available" selected>available</option>
+        <option value="unavailable">unavailable</option>
+      </select>
+      <span style="color: red;"
+        *ngIf="myForm.get('availability')?.invalid && myForm.get('availability')?.touched">availability
+        is invalid</span><br>
+    </div>
+
+    <div>
+      <label for="image">Image</label>
+      <input type="file" id="image" (change)="onFileChange($event)">
+
+    </div>
+
+    <button type="submit" class="btn primary" [disabled]="myForm.invalid">Add</button>
+  </form>
+
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+
+</body>
+
+</html>

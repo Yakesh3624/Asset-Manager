@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF- 8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <img src="assets/logo.png" class="logo">
+    <form [formGroup]="myForm" (ngSubmit)="dashboard(myForm.value)">
+      <h2 style="text-align:center; margin-bottom: 1rem;">Login</h2>
+      <div>
+        <label for="userName">Username</label>
+        <input type="text" id="userName" formControlName="userName" placeholder="Enter your username" />
+        <span style="color: red;" *ngIf="myForm.get('userName')?.invalid && myForm.get('userName')?.touched">Username is
+          invalid</span>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" formControlName="password" placeholder="Enter your password" />
+        <span style="color: red;" *ngIf="myForm.get('password')?.invalid && myForm.get('password')?.touched">Password is
+          invalid</span>
+      </div>
+
+      <!-- <select name="role" [(ngModel)]="role" >
+      <option value="Admin">Admin</option>
+      <option value="Employee">Employee</option>
+    </select> -->
+      <div style="color: red;" *ngIf="isError">Invalid username and password. Try again!</div>
+      <div>
+        <button type="button" routerLink="/signup">Signup</button>
+        <button type="submit" [disabled]="myForm.invalid">Login</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

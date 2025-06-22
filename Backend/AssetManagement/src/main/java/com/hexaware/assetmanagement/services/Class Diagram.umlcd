@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_2t0I0E5-EfCrB7LwsDlPdw">
+  <modelElement href="AssetManagementModel.uml#_-QX7UE5-EfCrB7LwsDlPdw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pJnsE5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hZZ4E5-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pKOwE5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-haoAE5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pKOwU5-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pKOwk5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hZZ4U5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pKOw05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pKOxE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pKOxU5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="modelMapper" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g1ZME5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pKOxk5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pKOx05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pLc4E5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hbPEE5-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pLc4U5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-hb2IE5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pLc4k5-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pLc405-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hbPEU5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pLc5E5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pLc5U5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pLc5k5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="assetRepo" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g2AQk5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pLc505-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pLc6E5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pMD8E5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hb2IU5-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pMD8U5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-hb2I05-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pMD8k5-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pMD805-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hb2Ik5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pMD9E5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pMD9U5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pMD9k5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="assetAllocationRepo" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g2nUk5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pMD905-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pMD-E5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pMrAE5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hcdME5-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pMrAU5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-hcdMk5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pMrAk5-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pMrA05-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hcdMU5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pMrBE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pMrBU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pMrBk5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="usersRepo" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g3OYU5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pMrB05-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pMrCE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pNSEE5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hcdM05-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pNSEU5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-hdEQE5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pNSEk5-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pNSE05-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hcdNE5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pNSFE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pNSFU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pNSFk5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="auditRequestRepo" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g3OZE5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pNSF05-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pNSGE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pNSGU5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hdEQU5-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pNSGk5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-hdEQ05-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pNSG05-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pNSHE5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hdEQk5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pNSHU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pNSHk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pNSH05-EfCrB7LwsDlPdw" aggregationKind="NONE" name="assetRequestRepo" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g3OZ05-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pNSIE5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pNSIU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_-pN5IE5-EfCrB7LwsDlPdw" source="_-pN5KU5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-hdERE5-EfCrB7LwsDlPdw"/>
+    <stereotypes xmi:id="_-pN5IU5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-hdERk5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_-pN5Ik5-EfCrB7LwsDlPdw" text=""/>
+    <sourceRole xmi:id="_-pN5I05-EfCrB7LwsDlPdw" aggregationKind="NONE" name="">
+      <modelElement href="AssetManagementModel.uml#_-hdERU5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pN5JE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5JU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_-pN5Jk5-EfCrB7LwsDlPdw" aggregationKind="NONE" name="serviceRequestRepo" navigable="true">
+      <modelElement href="AssetManagementModel.uml#_-g31ck5-EfCrB7LwsDlPdw"/>
+      <visibility xmi:id="_-pN5J05-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5KE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-rIksE5-EfCrB7LwsDlPdw" name="DataAlreadyExistException">
+    <modelElement href="AssetManagementModel.uml#_-fsJsU5-EfCrB7LwsDlPdw"/>
+    <visualProperties xmi:id="_-rIksU5-EfCrB7LwsDlPdw" position="232.0,1755.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_-rIksk5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-fswwE5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <visibility xmi:id="_-rIks05-EfCrB7LwsDlPdw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-rJy0E5-EfCrB7LwsDlPdw" name="DataNotFoundException">
+    <modelElement href="AssetManagementModel.uml#_-fswwU5-EfCrB7LwsDlPdw"/>
+    <visualProperties xmi:id="_-rJy0U5-EfCrB7LwsDlPdw" position="1451.0,1755.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_-rJy0k5-EfCrB7LwsDlPdw" name="Reference">
+      <modelElement href="AssetManagementModel.uml#_-ftX0E5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <visibility xmi:id="_-rJy005-EfCrB7LwsDlPdw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-pN5KU5-EfCrB7LwsDlPdw" name="AssetManagementServiceImp" associationsOut="_-pJnsE5-EfCrB7LwsDlPdw _-pLc4E5-EfCrB7LwsDlPdw _-pMD8E5-EfCrB7LwsDlPdw _-pMrAE5-EfCrB7LwsDlPdw _-pNSEE5-EfCrB7LwsDlPdw _-pNSGU5-EfCrB7LwsDlPdw _-pN5IE5-EfCrB7LwsDlPdw">
+    <modelElement href="AssetManagementModel.uml#_-QtSgE5-EfCrB7LwsDlPdw"/>
+    <visualProperties xmi:id="_-pN5Kk5-EfCrB7LwsDlPdw" position="547.0,424.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_-pN5K05-EfCrB7LwsDlPdw" name="LegacyStyledElement">
+      <modelElement href="AssetManagementModel.uml#_-RBbkE5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_-pN5LE5-EfCrB7LwsDlPdw" name="Annotations">
+      <modelElement href="AssetManagementModel.uml#_-R8ooE5-EfCrB7LwsDlPdw"/>
+    </stereotypes>
+    <visibility xmi:id="_-pN5LU5-EfCrB7LwsDlPdw" label="+"/>
+    <attributes xmi:id="_-pN5Lk5-EfCrB7LwsDlPdw" name="modelMapper">
+      <modelElement href="AssetManagementModel.uml#_-g1ZME5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5L05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g2AQE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5ME5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5MU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5Mk5-EfCrB7LwsDlPdw" name="ModelMapper">
+        <modelElement href="AssetManagementModel.uml#_-fkN4U5-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-pN5M05-EfCrB7LwsDlPdw" name="assetRepo">
+      <modelElement href="AssetManagementModel.uml#_-g2AQk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5NE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g2nUE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5NU5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5Nk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5N05-EfCrB7LwsDlPdw" name="AssetRepository">
+        <modelElement href="AssetManagementModel.uml#_-ftX005-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-pN5OE5-EfCrB7LwsDlPdw" name="assetAllocationRepo">
+      <modelElement href="AssetManagementModel.uml#_-g2nUk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5OU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g2nU05-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5Ok5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5O05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5PE5-EfCrB7LwsDlPdw" name="AssetAllocationRepository">
+        <modelElement href="AssetManagementModel.uml#_-ftX0U5-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-pN5PU5-EfCrB7LwsDlPdw" name="usersRepo">
+      <modelElement href="AssetManagementModel.uml#_-g3OYU5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5Pk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g3OYk5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5P05-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5QE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5QU5-EfCrB7LwsDlPdw" name="UsersRepository">
+        <modelElement href="AssetManagementModel.uml#_-fv0EU5-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-pN5Qk5-EfCrB7LwsDlPdw" name="auditRequestRepo">
+      <modelElement href="AssetManagementModel.uml#_-g3OZE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5Q05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g3OZU5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5RE5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5RU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5Rk5-EfCrB7LwsDlPdw" name="AuditRequestRepository">
+        <modelElement href="AssetManagementModel.uml#_-ful8U5-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-pN5R05-EfCrB7LwsDlPdw" name="assetRequestRepo">
+      <modelElement href="AssetManagementModel.uml#_-g3OZ05-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5SE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g31cE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5SU5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5Sk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5S05-EfCrB7LwsDlPdw" name="AssetRequestRepository">
+        <modelElement href="AssetManagementModel.uml#_-ft-4U5-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_-pN5TE5-EfCrB7LwsDlPdw" name="serviceRequestRepo">
+      <modelElement href="AssetManagementModel.uml#_-g31ck5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5TU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-g31c05-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5Tk5-EfCrB7LwsDlPdw" label="~"/>
+      <cardinality xmi:id="_-pN5T05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <type xmi:id="_-pN5UE5-EfCrB7LwsDlPdw" name="ServiceRequestRepository">
+        <modelElement href="AssetManagementModel.uml#_-fvNAU5-EfCrB7LwsDlPdw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_-pN5UU5-EfCrB7LwsDlPdw" name="getAllAssets">
+      <modelElement href="AssetManagementModel.uml#_-RYn8E5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5Uk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-ReHgE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5U05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5VE5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5VU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-RbrQE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5Vk5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-pN5V05-EfCrB7LwsDlPdw" name="getAssetsByCategory">
+      <modelElement href="AssetManagementModel.uml#_-Rk1ME5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5WE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RnRcE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5WU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5Wk5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5W05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-RlcQE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5XE5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5XU5-EfCrB7LwsDlPdw" name="category">
+        <modelElement href="AssetManagementModel.uml#_-Rk1MU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5Xk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5X05-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5YE5-EfCrB7LwsDlPdw" name="getAssetsByAvailability">
+      <modelElement href="AssetManagementModel.uml#_-RofkE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5YU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RpGok5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5Yk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5Y05-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5ZE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-RpGoE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5ZU5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5Zk5-EfCrB7LwsDlPdw" name="availability">
+        <modelElement href="AssetManagementModel.uml#_-RofkU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5Z05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5aE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5aU5-EfCrB7LwsDlPdw" name="getAllAllocations">
+      <modelElement href="AssetManagementModel.uml#_-RqUwE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5ak5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-Rq70E5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5a05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5bE5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5bU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-RqUwU5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5bk5-EfCrB7LwsDlPdw" name="AssetAllocationDTO">
+          <modelElement href="AssetManagementModel.uml#_-fmqIU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-pN5b05-EfCrB7LwsDlPdw" name="getAllAuditRequests">
+      <modelElement href="AssetManagementModel.uml#_-RsJ8E5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5cE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RsxAE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5cU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5ck5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5c05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-RsJ8U5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5dE5-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-pN5dU5-EfCrB7LwsDlPdw" name="getAuditRequestsByStatus">
+      <modelElement href="AssetManagementModel.uml#_-RtYEE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5dk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RumME5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5d05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5eE5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5eU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-Rt_IE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5ek5-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5e05-EfCrB7LwsDlPdw" name="status">
+        <modelElement href="AssetManagementModel.uml#_-RtYEU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5fE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5fU5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5fk5-EfCrB7LwsDlPdw" name="getAllAssetRequests">
+      <modelElement href="AssetManagementModel.uml#_-RvNQE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5f05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RwbYE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5gE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5gU5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5gk5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-Rv0UE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5g05-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-pN5hE5-EfCrB7LwsDlPdw" name="getAssetRequestsByStatus">
+      <modelElement href="AssetManagementModel.uml#_-RxCcE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5hU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RxpgE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5hk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5h05-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5iE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-RxCck5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5iU5-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5ik5-EfCrB7LwsDlPdw" name="status">
+        <modelElement href="AssetManagementModel.uml#_-RxCcU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5i05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5jE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5jU5-EfCrB7LwsDlPdw" name="getAllServiceRequests">
+      <modelElement href="AssetManagementModel.uml#_-Ry3oE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5jk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-RzesE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5j05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5kE5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5kU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-Ry3oU5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5kk5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_-pN5k05-EfCrB7LwsDlPdw" name="getAllServiceRequestsByStatus">
+      <modelElement href="AssetManagementModel.uml#_-R0s0E5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5lE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-R2iAE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5lU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5lk5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5l05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-R1T4E5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5mE5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5mU5-EfCrB7LwsDlPdw" name="status">
+        <modelElement href="AssetManagementModel.uml#_-R0s0U5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5mk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5m05-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5nE5-EfCrB7LwsDlPdw" name="getAllServiceRequestsByIssueType">
+      <modelElement href="AssetManagementModel.uml#_-R4XME5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5nU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-R6zcE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5nk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5n05-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5oE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-R4-QE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5oU5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5ok5-EfCrB7LwsDlPdw" name="issueType">
+        <modelElement href="AssetManagementModel.uml#_-R4XMU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5o05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5pE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5pU5-EfCrB7LwsDlPdw" name="addAsset">
+      <modelElement href="AssetManagementModel.uml#_-gSmoE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5pk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gVp8E5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5p05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5qE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN5qU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gTNsE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5qk5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5q05-EfCrB7LwsDlPdw" name="assetDto">
+        <modelElement href="AssetManagementModel.uml#_-gSmoU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5rE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5rU5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5rk5-EfCrB7LwsDlPdw" name="updateAsset">
+      <modelElement href="AssetManagementModel.uml#_-gWRAE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5r05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gXfIE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5sE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5sU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN5sk5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gW4EU5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5s05-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5tE5-EfCrB7LwsDlPdw" name="asset">
+        <modelElement href="AssetManagementModel.uml#_-gW4EE5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5tU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5tk5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5t05-EfCrB7LwsDlPdw" name="updateAssetAvailability">
+      <modelElement href="AssetManagementModel.uml#_-gYGMU5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5uE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gYtQE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5uU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5uk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN5u05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gYGNE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5vE5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5vU5-EfCrB7LwsDlPdw" name="assetNo">
+        <modelElement href="AssetManagementModel.uml#_-gYGMk5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5vk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5v05-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-pN5wE5-EfCrB7LwsDlPdw" name="availability">
+        <modelElement href="AssetManagementModel.uml#_-gYGM05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5wU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5wk5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5w05-EfCrB7LwsDlPdw" name="getAssetByAssetNo">
+      <modelElement href="AssetManagementModel.uml#_-gYtQk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5xE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gZUUE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5xU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5xk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN5x05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gYtRE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5yE5-EfCrB7LwsDlPdw" name="AssetDTO">
+          <modelElement href="AssetManagementModel.uml#_-fnRMU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5yU5-EfCrB7LwsDlPdw" name="assetNo">
+        <modelElement href="AssetManagementModel.uml#_-gYtQ05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5yk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5y05-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5zE5-EfCrB7LwsDlPdw" name="deleteAssetByAssetNo">
+      <modelElement href="AssetManagementModel.uml#_-gZ7YE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5zU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gZ7Y05-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5zk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5z05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN50E5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gZ7Yk5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN50U5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN50k5-EfCrB7LwsDlPdw" name="assetNo">
+        <modelElement href="AssetManagementModel.uml#_-gZ7YU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5005-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN51E5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN51U5-EfCrB7LwsDlPdw" name="allocateAssetToUser">
+      <modelElement href="AssetManagementModel.uml#_-gaicE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN51k5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gbJgE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5105-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN52E5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN52U5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gaidE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN52k5-EfCrB7LwsDlPdw" name="AssetAllocationDTO">
+          <modelElement href="AssetManagementModel.uml#_-fmqIU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5205-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-gaicU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN53E5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN53U5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-pN53k5-EfCrB7LwsDlPdw" name="assetNo">
+        <modelElement href="AssetManagementModel.uml#_-gaick5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5305-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN54E5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-pN54U5-EfCrB7LwsDlPdw" name="returnDate">
+        <modelElement href="AssetManagementModel.uml#_-gaic05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN54k5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5405-EfCrB7LwsDlPdw" name="LocalDate">
+          <modelElement href="AssetManagementModel.uml#_-ff8cE5-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN55E5-EfCrB7LwsDlPdw" name="getAllocationByAllocationId">
+      <modelElement href="AssetManagementModel.uml#_-gbwkE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN55U5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gcXoE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN55k5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5505-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN56E5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gbwkk5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN56U5-EfCrB7LwsDlPdw" name="AssetAllocationDTO">
+          <modelElement href="AssetManagementModel.uml#_-fmqIU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN56k5-EfCrB7LwsDlPdw" name="allocationId">
+        <modelElement href="AssetManagementModel.uml#_-gbwkU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5605-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN57E5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN57U5-EfCrB7LwsDlPdw" name="getAllocationByAssetNo">
+      <modelElement href="AssetManagementModel.uml#_-gc-sE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN57k5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gdlwU5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5705-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN58E5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN58U5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gdlwE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN58k5-EfCrB7LwsDlPdw" name="AssetAllocationDTO">
+          <modelElement href="AssetManagementModel.uml#_-fmqIU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5805-EfCrB7LwsDlPdw" name="assetNo">
+        <modelElement href="AssetManagementModel.uml#_-gc-sU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN59E5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN59U5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN59k5-EfCrB7LwsDlPdw" name="getAllocationsByUserId">
+      <modelElement href="AssetManagementModel.uml#_-geM0U5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN5905-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gez4E5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN5-E5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN5-U5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN5-k5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-geM005-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN5-05-EfCrB7LwsDlPdw" name="AssetAllocationDTO">
+          <modelElement href="AssetManagementModel.uml#_-fmqIU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN5_E5-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-geM0k5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN5_U5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN5_k5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN5_05-EfCrB7LwsDlPdw" name="returnAsset">
+      <modelElement href="AssetManagementModel.uml#_-gez4k5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN6AE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gfa8U5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN6AU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN6Ak5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN6A05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gfa8E5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN6BE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN6BU5-EfCrB7LwsDlPdw" name="assetNo">
+        <modelElement href="AssetManagementModel.uml#_-gez405-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN6Bk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN6B05-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN6CE5-EfCrB7LwsDlPdw" name="addAuditRequest">
+      <modelElement href="AssetManagementModel.uml#_-gfa9E5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN6CU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-ggpEE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN6Ck5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN6C05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN6DE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-ggCAU5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN6DU5-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN6Dk5-EfCrB7LwsDlPdw" name="auditRequestDto">
+        <modelElement href="AssetManagementModel.uml#_-ggCAE5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN6D05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN6EE5-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN6EU5-EfCrB7LwsDlPdw" name="getAuditRequestsByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-ghQIE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN6Ek5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gh3ME5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN6E05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN6FE5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pN6FU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-ghQIk5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN6Fk5-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN6F05-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-ghQIU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN6GE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pN6GU5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pN6Gk5-EfCrB7LwsDlPdw" name="getAuditRequestsByRequestId">
+      <modelElement href="AssetManagementModel.uml#_-gieQE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pN6G05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gjsYE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pN6HE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pN6HU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pN6Hk5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gjFUE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pN6H05-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pN6IE5-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gieQU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pN6IU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgME5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgMU5-EfCrB7LwsDlPdw" name="updateAuditRequestStatus">
+      <modelElement href="AssetManagementModel.uml#_-gkTcE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgMk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gk6gE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgM05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgNE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgNU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gkTc05-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgNk5-EfCrB7LwsDlPdw" name="AuditRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fofUU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgN05-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gkTcU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgOE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgOU5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-pOgOk5-EfCrB7LwsDlPdw" name="status">
+        <modelElement href="AssetManagementModel.uml#_-gkTck5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgO05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgPE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgPU5-EfCrB7LwsDlPdw" name="addAssetRequest">
+      <modelElement href="AssetManagementModel.uml#_-gk6g05-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgPk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-glhkU5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgP05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgQE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgQU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-glhkE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgQk5-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgQ05-EfCrB7LwsDlPdw" name="assetRequestDto">
+        <modelElement href="AssetManagementModel.uml#_-gk6hE5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgRE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgRU5-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgRk5-EfCrB7LwsDlPdw" name="getAssetRequestsByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-gmIoE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgR05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gmvsE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgSE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgSU5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pOgSk5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gmIok5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgS05-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgTE5-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-gmIoU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgTU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgTk5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgT05-EfCrB7LwsDlPdw" name="getAssetRequestsByRequestId">
+      <modelElement href="AssetManagementModel.uml#_-gmvsk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgUE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gnWwU5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgUU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgUk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgU05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gnWwE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgVE5-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgVU5-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gmvs05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgVk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgV05-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgWE5-EfCrB7LwsDlPdw" name="updateAssetRequestStatus">
+      <modelElement href="AssetManagementModel.uml#_-gnWw05-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgWU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gn90k5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgWk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgW05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgXE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gn90U5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgXU5-EfCrB7LwsDlPdw" name="AssetRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fn4QU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgXk5-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gnWxE5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgX05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgYE5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-pOgYU5-EfCrB7LwsDlPdw" name="status">
+        <modelElement href="AssetManagementModel.uml#_-gn90E5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgYk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgY05-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgZE5-EfCrB7LwsDlPdw" name="addServiceRequest">
+      <modelElement href="AssetManagementModel.uml#_-gpL8E5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgZU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gpzAE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgZk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgZ05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgaE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gpL8k5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgaU5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgak5-EfCrB7LwsDlPdw" name="serviceRequestDto">
+        <modelElement href="AssetManagementModel.uml#_-gpL8U5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOga05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgbE5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgbU5-EfCrB7LwsDlPdw" name="updateServiceRequestStatus">
+      <modelElement href="AssetManagementModel.uml#_-gqaEE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgbk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-grBIE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgb05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgcE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgcU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gqaE05-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgck5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgc05-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gqaEU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgdE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgdU5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_-pOgdk5-EfCrB7LwsDlPdw" name="status">
+        <modelElement href="AssetManagementModel.uml#_-gqaEk5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgd05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgeE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgeU5-EfCrB7LwsDlPdw" name="getAllServiceRequestsByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-groMU5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgek5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gsPQE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOge05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgfE5-EfCrB7LwsDlPdw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_-pOgfU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-groM05-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgfk5-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgf05-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-groMk5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOggE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOggU5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOggk5-EfCrB7LwsDlPdw" name="getServiceRequestsByRequestId">
+      <modelElement href="AssetManagementModel.uml#_-gsPQk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgg05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gs2UE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOghE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOghU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOghk5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gsPRE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgh05-EfCrB7LwsDlPdw" name="ServiceRequestDTO">
+          <modelElement href="AssetManagementModel.uml#_-fpGYU5-EfCrB7LwsDlPdw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgiE5-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gsPQ05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgiU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgik5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgi05-EfCrB7LwsDlPdw" name="deleteAuditRequest">
+      <modelElement href="AssetManagementModel.uml#_-gs2Uk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgjE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gtdYE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgjU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgjk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgj05-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gs2VE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgkE5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgkU5-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gs2U05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgkk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgk05-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOglE5-EfCrB7LwsDlPdw" name="deleteAssetRequest">
+      <modelElement href="AssetManagementModel.uml#_-gtdYk5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOglU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-guEcE5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOglk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgl05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgmE5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gtdZE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgmU5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgmk5-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-gtdY05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgm05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgnE5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgnU5-EfCrB7LwsDlPdw" name="deleteServiceRequest">
+      <modelElement href="AssetManagementModel.uml#_-guEck5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgnk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gurgU5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgn05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgoE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_-pOgoU5-EfCrB7LwsDlPdw">
+        <modelElement href="AssetManagementModel.uml#_-gurgE5-EfCrB7LwsDlPdw"/>
+        <type xmi:id="_-pOgok5-EfCrB7LwsDlPdw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_-pOgo05-EfCrB7LwsDlPdw" name="requestId">
+        <modelElement href="AssetManagementModel.uml#_-guEc05-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgpE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgpU5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgpk5-EfCrB7LwsDlPdw" name="deleteAssetAllocationByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-gvSkE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgp05-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gvSkk5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgqE5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgqU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-pOgqk5-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-gvSkU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgq05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgrE5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgrU5-EfCrB7LwsDlPdw" name="deleteAssetRequestByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-gvSlE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgrk5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gv5oU5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgr05-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgsE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-pOgsU5-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-gv5oE5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgsk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgs05-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgtE5-EfCrB7LwsDlPdw" name="deleteServiceRequestByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-gwgsE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgtU5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gwgsk5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgtk5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgt05-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-pOguE5-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-gwgsU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOguU5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOguk5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_-pOgu05-EfCrB7LwsDlPdw" name="deleteAuditRequestByUsersId">
+      <modelElement href="AssetManagementModel.uml#_-gxHwE5-EfCrB7LwsDlPdw"/>
+      <stereotypes xmi:id="_-pOgvE5-EfCrB7LwsDlPdw" name="Annotations">
+        <modelElement href="AssetManagementModel.uml#_-gxHwk5-EfCrB7LwsDlPdw"/>
+      </stereotypes>
+      <visibility xmi:id="_-pOgvU5-EfCrB7LwsDlPdw" label="+"/>
+      <cardinality xmi:id="_-pOgvk5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_-pOgv05-EfCrB7LwsDlPdw" name="usersId">
+        <modelElement href="AssetManagementModel.uml#_-gxHwU5-EfCrB7LwsDlPdw"/>
+        <cardinality xmi:id="_-pOgwE5-EfCrB7LwsDlPdw" label="1" max="1" min="1"/>
+        <type xmi:id="_-pOgwU5-EfCrB7LwsDlPdw" name="Long">
+          <modelElement href="AssetManagementModel.uml#_-gXfI05-EfCrB7LwsDlPdw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

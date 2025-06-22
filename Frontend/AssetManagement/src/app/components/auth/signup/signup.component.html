@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+</head>
+
+<body>
+  <div class="alert success" *ngIf="submitted">Registerd successfully!</div>
+  <button class="btn-close" routerLink="/login">x</button>
+  <h1>Register</h1>
+  <form class=" container form" [formGroup]="myForm" (ngSubmit)="submit(myForm.value)">
+    <div>
+      <label for="firstName">First Name</label>
+      <input type="text" placeholder="First Name" id="firstName" required formControlName="firstName"><br>
+      <span style="color: red;" *ngIf="myForm.get('firstName')?.invalid && myForm.get('firstName')?.touched">First name
+        is invalid</span>
+    </div>
+
+    <div>
+      <label for="lastName">Last Name</label>
+      <input type="text" placeholder="Last Name" id="lastName" required formControlName="lastName"><br>
+      <span style="color: red;" *ngIf="myForm.get('lastName')?.invalid && myForm.get('lastName')?.touched">Last name
+        is invalid</span>
+    </div>
+
+    <div>
+      <label for="role">Role</label>
+      <select name="role" id="role" required formControlName="role">
+        <option value="" disabled selected>--- Select ---</option>
+        <option value="Admin">Admin</option>
+        <option value="Employee">Employee</option>
+      </select>
+      <span style="color: red;" *ngIf="myForm.get('role')?.invalid && myForm.get('role')?.touched">Role
+        is invalid</span>
+    </div>
+
+    <div>
+      <label for="email">Email</label>
+      <input type="email" placeholder="Email" id="email" required formControlName="email"><br>
+      <span style="color: red;" *ngIf="myForm.get('email')?.invalid && myForm.get('email')?.touched">Email
+        is invalid</span>
+    </div>
+
+    <div>
+      <label for="gender">Gender</label>
+      <select name="gender" id="gender" required formControlName="gender">
+        <option value="" disabled selected>--- Select ---</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <span style="color: red;" *ngIf="myForm.get('gender')?.invalid && myForm.get('gender')?.touched">Gender
+        is invalid</span>
+    </div>
+
+    <div>
+      <label for="contactNumber">Contact Number</label>
+      <input type="number" placeholder="Contact Number" id="contactNumber" required formControlName="contactNumber"><br>
+      <span style="color: red;"
+        *ngIf="myForm.get('contactNumber')?.invalid && myForm.get('contactNumber')?.touched">Contact number
+        is invalid</span>
+    </div>
+
+    <div>
+      <label for="address">Address</label>
+      <input type="text" placeholder="Address" id="address" required formControlName="address"><br>
+      <span style="color: red;" *ngIf="myForm.get('address')?.invalid && myForm.get('address')?.touched">Address
+        is invalid</span>
+    </div>
+
+    <button type="submit" class="btn primary" [disabled]="myForm.invalid">Register</button>
+  </form>
+
+
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Request</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-links">
+        <img src="assets/logo.png" class="logo">
+        <a routerLink="/admin-dashboard" routerLinkActive="active">Home</a>
+        <a [routerLink]="['view']" routerLinkActive="active">View</a>
+      </div>
+      <div>
+        <div class="profile-wrapper" (click)="profileClicked()">
+          <img src="assets/profile.png" alt="Profile" class="profile-icon" />
+          <div class="dropdown-menu" *ngIf="isProfileBarClicked">
+            <button routerLink="/profile">Profile</button>
+            <button routerLink="/login">Logout</button>
+          </div>
+        </div>
+      </div>
+
+
+    </nav>
+
+  </header>
+
+  <router-outlet></router-outlet>
+</body>
+
+</html>

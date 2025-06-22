@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="alert success" *ngIf="isDeleted">Audit Request deleted successfully!</div>
+  <div class="search-bar">
+    <h1>Audit Request</h1>
+    <div>
+      <input type="text" [(ngModel)]="searchTerm" (input)="getAllData()" placeholder="Search by Request ID, Status" />
+      <button (click)="search()" class="btn btn-primary">Search</button>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <th>RequestID</th>
+      <th>UserID</th>
+      <th>Asset No</th>
+      <th>Request Date</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <tr *ngFor="let request of filteredData">
+      <td>{{request.requestId}}</td>
+      <td>{{request.usersId}}</td>
+      <td>{{request.assetNo}}</td>
+      <td>{{request.requestedAt}}</td>
+      <td>{{request.status}}</td>
+      <td>
+        <div>
+          <button class="btn btn-success btn-sm" [disabled]="request.status.startsWith('Approved')"
+            (click)="approve(request.requestId,'Approved')">Approve</button>
+          <button class="btn btn-danger btn-sm" [disabled]="request.status.startsWith('Rejected')"
+            (click)="reject(request.requestId,'Rejected')">Reject</button>
+          <button class="btn btn-danger btn-sm" (click)="delete(request.requestId)">Delete</button>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+</body>
+
+</html>

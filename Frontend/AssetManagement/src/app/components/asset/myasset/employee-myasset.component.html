@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="alert success" *ngIf="isReturned">Asset returned successfully!</div>
+
+  <div class="search-bar">
+    <input type="number" [(ngModel)]="searchTerm" placeholder="Search by Asset No" />
+    <button (click)="search()" class="btn btn-primary">Search</button>
+  </div>
+  <table>
+
+    <tr>
+      <th>Allocation ID</th>
+      <th>Asset No</th>
+      <th>Allocation Date</th>
+      <th>Return Date</th>
+      <th>Action</th>
+    </tr>
+
+    <tr *ngFor="let allocation of filteredData">
+      <td>{{allocation.allocationId}}</td>
+      <td>{{allocation.assetNo}}</td>
+      <td>{{allocation.allocationDate}}</td>
+      <td>{{allocation.returnDate}}</td>
+      <td>
+        <div>
+          <button class="btn btn-info btn-sm" (click)="serviceRequestButton(allocation.assetNo)">Service</button>
+          <button class="btn btn-info btn-sm" (click)="returnButton(allocation.assetNo)">Return</button>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <div *ngIf="isRequest" class="update-form">
+
+
+    <form class=" container form" [formGroup]="myForm" (ngSubmit)="placeRequest(myForm.value)">
+
+      <div>
+        <button class="close-btn-update" (click)="requestClose()">x</button>
+      </div>
+
+      <div>
+
+        <label for="issueType">Issue Type</label>
+        <select name="issueType" id="issueType" required formControlName="issueType" aria-placeholder="select">
+          <option value="" disabled selected>--- Select ---</option>
+          <option value="Repair">Repair</option>
+          <option value="Malfunction">Malfunction</option>
+        </select><br>
+        <span style="color: red;" *ngIf="myForm.get('issueType')?.invalid && myForm.get('issueType')?.touched">Issue
+          type is invalid</span><br>
+      </div>
+
+      <div>
+        <label for="description">Description</label>
+        <input type="text" placeholder="Description" id="description" required formControlName="description">
+        <span style="color: red;"
+          *ngIf="myForm.get('description')?.invalid && myForm.get('description')?.touched">Description is
+          invalid</span><br>
+      </div>
+
+      <div>
+        <div class="alert success" *ngIf="isRequested">✔ Service request placed successfully!</div>
+        <div class="error" *ngIf="isError">Service request already placed.</div>
+      </div><br>
+      <button type="submit" class="btn primary" [disabled]="myForm.invalid">Submit</button>
+    </form>
+  </div>
+  <footer>
+    <p><strong>&copy; 2025 Asset Management System</strong> by Yakesh Balaji Raja P</p>
+    <a href="https://www.linkedin.com/in/yakesh-balaji-raja-p-a90142238/" target="_blank">Contact</a>
+  </footer>
+</body>
+
+</html>

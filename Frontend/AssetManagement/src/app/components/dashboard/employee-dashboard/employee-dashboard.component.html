@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-links">
+        <img src="assets/logo.png" class="logo">
+        <a routerLink="myasset" routerLinkActive="active">My Asset</a>
+        <a routerLink="asset" routerLinkActive="active">All Asset</a>
+        <a routerLink="myrequests" routerLinkActive="active">Requests</a>
+        <a routerLink="myservice" routerLinkActive="active">Service</a>
+        <a routerLink="myaudit" routerLinkActive="active">Audit</a>
+      </div>
+      <div>
+        <div class="profile-wrapper" (click)="profileClicked()">
+          <img src="assets/profile.png" alt="Profile" class="profile-icon" />
+          <div class="dropdown-menu" *ngIf="isProfileBarClicked">
+            <button routerLink="/profile">Profile</button>
+            <button (click)="logout()">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <router-outlet></router-outlet>
+  </header>
+
+</body>
+
+</html>

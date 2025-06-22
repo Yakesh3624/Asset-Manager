@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_zsCkcE5_EfCrB7LwsDlPdw" name="user_microservice">
+    <eAnnotations xmi:id="_6o63AE5_EfCrB7LwsDlPdw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_6o63AU5_EfCrB7LwsDlPdw" source="codegen">
+        <details xmi:id="_6o63Ak5_EfCrB7LwsDlPdw" key="codegenDirectory" value="/user-microservice/src/main/java"/>
+        <details xmi:id="_6vBfAE5_EfCrB7LwsDlPdw" key="AssociatedSourceCode" value="/user-microservice/src/main/java/com/hexaware/usermicroservice/service/UsersServiceImp.java;4119858452/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_6o8FIE5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8FIU5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8FIk5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8FI05_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8FJE5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8FJU5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8FJk5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8sME5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_6o8sMU5_EfCrB7LwsDlPdw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6ohOYE5_EfCrB7LwsDlPdw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6ohOYU5_EfCrB7LwsDlPdw" name="hexaware">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6ohOYk5_EfCrB7LwsDlPdw" name="usermicroservice">
+          <packagedElement xmi:type="uml:Package" xmi:id="_6oichU5_EfCrB7LwsDlPdw" name="dto">
+            <packagedElement xmi:type="uml:Class" xmi:id="_6tt3c05_EfCrB7LwsDlPdw" name="CredentialDTO"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_6tuegU5_EfCrB7LwsDlPdw" name="UsersDTO"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_6oichk5_EfCrB7LwsDlPdw" name="entity">
+            <packagedElement xmi:type="uml:Class" xmi:id="_6tueg05_EfCrB7LwsDlPdw" name="Credential"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_6tvFkU5_EfCrB7LwsDlPdw" name="Users"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_6oich05_EfCrB7LwsDlPdw" name="exception">
+            <packagedElement xmi:type="uml:Class" xmi:id="_6tvFk05_EfCrB7LwsDlPdw" name="DataAlreadyExistException"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_6tvsoU5_EfCrB7LwsDlPdw" name="DataNotFoundException"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_6ojDkE5_EfCrB7LwsDlPdw" name="repository">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_6tvso05_EfCrB7LwsDlPdw" name="CredentialRepository"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_6tvspU5_EfCrB7LwsDlPdw" name="UsersRepository"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_6ov34E5_EfCrB7LwsDlPdw" name="service">
+            <packagedElement xmi:type="uml:Class" xmi:id="_6o5o4E5_EfCrB7LwsDlPdw" name="UsersServiceImp">
+              <ownedAttribute xmi:id="_6t9IAE5_EfCrB7LwsDlPdw" name="usersRepo" visibility="package" type="_6tvspU5_EfCrB7LwsDlPdw" association="_6uCnkE5_EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_6t9vEk5_EfCrB7LwsDlPdw" name="credentialRepo" visibility="package" type="_6tvso05_EfCrB7LwsDlPdw" association="_6uDOoU5_EfCrB7LwsDlPdw"/>
+              <ownedAttribute xmi:id="_6t-WIk5_EfCrB7LwsDlPdw" name="passwordEncoder" visibility="private" type="_6ttQZE5_EfCrB7LwsDlPdw" association="_6uDOpE5_EfCrB7LwsDlPdw"/>
+              <interfaceRealization xmi:id="_6t1MMk5_EfCrB7LwsDlPdw" client="_6o5o4E5_EfCrB7LwsDlPdw" supplier="_6t1MME5_EfCrB7LwsDlPdw" contract="_6t1MME5_EfCrB7LwsDlPdw"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6t_kQE5_EfCrB7LwsDlPdw" name="addUsers" specification="_6t1zQE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t_kQU5_EfCrB7LwsDlPdw" name="user" type="_6tvFkU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t_kQk5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to add user with ID: {}&quot;, user.getUsersId());&#xD;
+		user.setRole(user.getRole().toUpperCase());&#xD;
+		usersRepo.save(user);&#xD;
+		log.info(&quot;User added successfully with ID: {}&quot;, user.getUsersId());&#xD;
+		return users2dto(user);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6t_kQ05_EfCrB7LwsDlPdw" name="updateUsers" specification="_6t2aU05_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t_kRE5_EfCrB7LwsDlPdw" name="user" type="_6tvFkU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t_kRU5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to update user with ID: {}&quot;, user.getUsersId());&#xD;
+&#xD;
+		usersRepo.findById(user.getUsersId()).orElseThrow(() -> {&#xD;
+			log.error(&quot;User not found with ID: {}&quot;, user.getUsersId());&#xD;
+			return new DataNotFoundException(&quot;Requested user not found&quot;);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;User updated successfully with ID: {}&quot;, user.getUsersId());&#xD;
+		usersRepo.save(user);&#xD;
+		return users2dto(user);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6t_kRk5_EfCrB7LwsDlPdw" name="getAllUsers" specification="_6o96UE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t_kR05_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6t_kSE5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetch all users&quot;);&#xD;
+&#xD;
+		List&lt;Users> usersList = usersRepo.findAll();&#xD;
+		if (usersList.isEmpty()) {&#xD;
+			log.warn(&quot;No users found in the database&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+&#xD;
+		log.info(&quot;Fetched all users&quot;);&#xD;
+&#xD;
+		return users2dtolist(usersList);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALUE5_EfCrB7LwsDlPdw" name="getUsersByUsersId" specification="_6t3ocU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALUU5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALUk5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching users with ID: {}&quot;, usersId);&#xD;
+&#xD;
+		Users users = usersRepo.findById(usersId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;No user found with ID: {}&quot;, usersId);&#xD;
+			return new DataNotFoundException(&quot;No user found with id &quot; + usersId);&#xD;
+		});&#xD;
+&#xD;
+		log.info(&quot;Fetched users with ID: {}&quot;, usersId);&#xD;
+&#xD;
+		return users2dto(users);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALU05_EfCrB7LwsDlPdw" name="deleteUsersById" specification="_6t3odk5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALVE5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALVU5_EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to delete user with ID: {}&quot;, usersId);&#xD;
+&#xD;
+		usersRepo.findById(usersId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;User with ID {} does not exists&quot;, usersId);&#xD;
+			return new DataNotFoundException(&quot;Requested user not found&quot;);&#xD;
+		});&#xD;
+		usersRepo.deleteById(usersId);&#xD;
+&#xD;
+		log.info(&quot;User with ID {} deleted successfully&quot;, usersId);&#xD;
+&#xD;
+		return &quot;User with Id &quot; + usersId + &quot; is deleted&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALVk5_EfCrB7LwsDlPdw" name="addCredential" specification="_6t4Pgk5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALV05_EfCrB7LwsDlPdw" name="credential" type="_6tueg05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALWE5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to add credential with ID: {}&quot;, credential.getUsersId());&#xD;
+&#xD;
+		Credential oldCredential = credentialRepo.findById(credential.getUsersId()).orElse(null);&#xD;
+		if (oldCredential != null) {&#xD;
+			log.warn(&quot;Credential with user Id : {} already exist&quot;, credential.getUsersId());&#xD;
+			throw new DataAlreadyExistException(&quot;Credential already exist&quot;);&#xD;
+		}&#xD;
+&#xD;
+		Users user = usersRepo.findById(credential.getUsersId())&#xD;
+				.orElseThrow(() -> new DataNotFoundException(&quot;User not found&quot;));&#xD;
+&#xD;
+		if (credentialRepo.existsById(user.getUsersId())) {&#xD;
+			throw new DataAlreadyExistException(&quot;Credential already exists&quot;);&#xD;
+		}&#xD;
+&#xD;
+		credential.setUsersId(null);&#xD;
+		credential.setUser(user);&#xD;
+		credential.setUserName(credential.getUserName());&#xD;
+		credential.setPassword(passwordEncoder.encode(credential.getPassword()));&#xD;
+&#xD;
+		credentialRepo.save(credential);&#xD;
+&#xD;
+		log.info(&quot;Credential added successfully with ID: {}&quot;, credential.getUsersId());&#xD;
+&#xD;
+		return credential2dto(credential);&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALWU5_EfCrB7LwsDlPdw" name="updateCredential" specification="_6t42kE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALWk5_EfCrB7LwsDlPdw" name="credential" type="_6tueg05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALW05_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to update credential with ID: {}&quot;, credential.getUsersId());&#xD;
+&#xD;
+		Credential oldCredential = credentialRepo.findById(credential.getUsersId()).orElse(null);&#xD;
+		if (oldCredential == null) {&#xD;
+			log.warn(&quot;Credential with user Id : {} does not exist&quot;, credential.getUsersId());&#xD;
+			throw new DataNotFoundException(&quot;Credential does not exist&quot;);&#xD;
+		}&#xD;
+		credential.setPassword(passwordEncoder.encode(credential.getPassword()));&#xD;
+		credentialRepo.save(credential);&#xD;
+&#xD;
+		log.info(&quot;Credential updated successfully with ID: {}&quot;, credential.getUsersId());&#xD;
+&#xD;
+		return credential2dto(credential);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALXE5_EfCrB7LwsDlPdw" name="getAllCredentials" specification="_6o_vgE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALXU5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6uALXk5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Fetch all users&quot;);&#xD;
+		List&lt;Credential> credentialList = credentialRepo.findAll();&#xD;
+		if (credentialList.isEmpty()) {&#xD;
+			log.warn(&quot;No credential found in the database&quot;);&#xD;
+			throw new DataNotFoundException(&quot;No data to display&quot;);&#xD;
+		}&#xD;
+		return credential2dtolist(credentialList);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALX05_EfCrB7LwsDlPdw" name="getCredentialByUsersId" specification="_6t42lU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALYE5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALYU5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching credentials with ID: {}&quot;, usersId);&#xD;
+&#xD;
+		Credential credential = credentialRepo.findById(usersId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;No credential found with user ID: {}&quot;, usersId);&#xD;
+			return new DataNotFoundException(&quot;No credential found with user id &quot; + usersId);&#xD;
+		});&#xD;
+		log.info(&quot;Fetched credentials with ID: {}&quot;, usersId);&#xD;
+		return credential2dto(credential);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALYk5_EfCrB7LwsDlPdw" name="getCredentialByUserName" specification="_6pBksE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALY05_EfCrB7LwsDlPdw" name="userName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_6uALZE5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>log.info(&quot;Fetching credentials with username: {}&quot;, userName);&#xD;
+&#xD;
+		Credential credential = credentialRepo.findByUserName(userName).orElseThrow(() -> {&#xD;
+			log.warn(&quot;No credential found with username: {}&quot;, userName);&#xD;
+			return new DataNotFoundException(&quot;No credential found with user id &quot; + userName);&#xD;
+		});&#xD;
+		log.info(&quot;Fetched credentials with username: {}&quot;, userName);&#xD;
+		return credential2dto(credential);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALZU5_EfCrB7LwsDlPdw" name="deleteCredential" specification="_6t5dpU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALZk5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALZ05_EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>log.info(&quot;Attempting to delete credential with ID: {}&quot;, usersId);&#xD;
+&#xD;
+		credentialRepo.findById(usersId).orElseThrow(() -> {&#xD;
+			log.warn(&quot;Credential with ID {} does not exists&quot;, usersId);&#xD;
+			return new DataNotFoundException(&quot;Requested credential not found&quot;);&#xD;
+		});&#xD;
+&#xD;
+		credentialRepo.deleteById(usersId);&#xD;
+&#xD;
+		log.info(&quot;Credential with ID {} deleted successfully&quot;, usersId);&#xD;
+&#xD;
+		return &quot;Credential of the user with ID : &quot; + usersId + &quot; is deleted successfully&quot;;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALaE5_EfCrB7LwsDlPdw" name="users2dto" specification="_6t6EtE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALaU5_EfCrB7LwsDlPdw" name="users" type="_6tvFkU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALak5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>UsersDTO usersDto = new UsersDTO();&#xD;
+		usersDto.setUsersId(users.getUsersId());&#xD;
+		usersDto.setFirstName(users.getFirstName());&#xD;
+		usersDto.setLastName(users.getLastName());&#xD;
+		usersDto.setRole(users.getRole());&#xD;
+		usersDto.setGender(users.getGender());&#xD;
+		usersDto.setAddress(users.getAddress());&#xD;
+		usersDto.setContactNumber(users.getContactNumber());&#xD;
+		usersDto.setEmail(users.getEmail());&#xD;
+&#xD;
+		return usersDto;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uALa05_EfCrB7LwsDlPdw" name="users2dtolist" specification="_6t6rwU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uALbE5_EfCrB7LwsDlPdw" name="usersList" type="_6tspUU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uALbU5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6uALbk5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;UsersDTO> usersListDto = new ArrayList&lt;>();&#xD;
+		for (Users users : usersList) {&#xD;
+			UsersDTO usersDto = new UsersDTO();&#xD;
+			usersDto.setUsersId(users.getUsersId());&#xD;
+			usersDto.setFirstName(users.getFirstName());&#xD;
+			usersDto.setLastName(users.getLastName());&#xD;
+			usersDto.setRole(users.getRole());&#xD;
+			usersDto.setGender(users.getGender());&#xD;
+			usersDto.setAddress(users.getAddress());&#xD;
+			usersDto.setContactNumber(users.getContactNumber());&#xD;
+			usersDto.setEmail(users.getEmail());&#xD;
+&#xD;
+			usersListDto.add(usersDto);&#xD;
+		}&#xD;
+		return usersListDto;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uAyYE5_EfCrB7LwsDlPdw" name="credential2dto" specification="_6t7S0U5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uAyYU5_EfCrB7LwsDlPdw" name="credential" type="_6tueg05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uAyYk5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+                <language>java</language>
+                <body>CredentialDTO credentialDto = new CredentialDTO();&#xD;
+		credentialDto.setUsersId(credential.getUsersId());&#xD;
+		credentialDto.setPassword(credential.getPassword());&#xD;
+		credentialDto.setUserName(credential.getUserName());&#xD;
+&#xD;
+		return credentialDto;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_6uAyY05_EfCrB7LwsDlPdw" name="credential2dtolist" specification="_6t7S1U5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6uAyZE5_EfCrB7LwsDlPdw" name="credentialList" type="_6tspUU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6uAyZU5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6uAyZk5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>List&lt;CredentialDTO> credentialListDto = new ArrayList&lt;>();&#xD;
+		for (Credential credential : credentialList) {&#xD;
+			CredentialDTO credentialDto = new CredentialDTO();&#xD;
+			credentialDto.setUsersId(credential.getUsersId());&#xD;
+			credentialDto.setPassword(credential.getPassword());&#xD;
+			credentialDto.setUserName(credential.getUserName());&#xD;
+&#xD;
+			credentialListDto.add(credentialDto);&#xD;
+		}&#xD;
+		return credentialListDto;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_6o96UE5_EfCrB7LwsDlPdw" name="getAllUsers" method="_6t_kRk5_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6o96UU5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6o96Uk5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6o_vgE5_EfCrB7LwsDlPdw" name="getAllCredentials" method="_6uALXE5_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6o_vgU5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6pAWkE5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6pBksE5_EfCrB7LwsDlPdw" name="getCredentialByUserName" method="_6uALYk5_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6pBksU5_EfCrB7LwsDlPdw" name="userName">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_6t5dpE5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t1zQE5_EfCrB7LwsDlPdw" name="addUsers" method="_6t_kQE5_EfCrB7LwsDlPdw" raisedException="_6tvFk05_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t1zQU5_EfCrB7LwsDlPdw" name="user" type="_6tvFkU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t2aUE5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t2aU05_EfCrB7LwsDlPdw" name="updateUsers" method="_6t_kQ05_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t2aVE5_EfCrB7LwsDlPdw" name="user" type="_6tvFkU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t2aVU5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t3ocU5_EfCrB7LwsDlPdw" name="getUsersByUsersId" method="_6uALUE5_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t3ock5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t3oc05_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t3odk5_EfCrB7LwsDlPdw" name="deleteUsersById" method="_6uALU05_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t3od05_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t3oeE5_EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t4Pgk5_EfCrB7LwsDlPdw" name="addCredential" method="_6uALVk5_EfCrB7LwsDlPdw" raisedException="_6tvFk05_EfCrB7LwsDlPdw _6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t4Pg05_EfCrB7LwsDlPdw" name="credential" type="_6tueg05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t4PhE5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t42kE5_EfCrB7LwsDlPdw" name="updateCredential" method="_6uALWU5_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t42kU5_EfCrB7LwsDlPdw" name="credential" type="_6tueg05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t42kk5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t42lU5_EfCrB7LwsDlPdw" name="getCredentialByUsersId" method="_6uALX05_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t5doE5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t5doU5_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t5dpU5_EfCrB7LwsDlPdw" name="deleteCredential" method="_6uALZU5_EfCrB7LwsDlPdw" raisedException="_6tvsoU5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t5dpk5_EfCrB7LwsDlPdw" name="usersId" type="_6t3BY05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t5dp05_EfCrB7LwsDlPdw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t6EtE5_EfCrB7LwsDlPdw" name="users2dto" isStatic="true" method="_6uALaE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t6EtU5_EfCrB7LwsDlPdw" name="users" type="_6tvFkU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t6Etk5_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t6rwU5_EfCrB7LwsDlPdw" name="users2dtolist" isStatic="true" method="_6uALa05_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t6rwk5_EfCrB7LwsDlPdw" name="usersList" type="_6tspUU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t6rw05_EfCrB7LwsDlPdw" type="_6tuegU5_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6t6rxE5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t7S0U5_EfCrB7LwsDlPdw" name="credential2dto" isStatic="true" method="_6uAyYE5_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t7S0k5_EfCrB7LwsDlPdw" name="credential" type="_6tueg05_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t7S005_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_6t7S1U5_EfCrB7LwsDlPdw" name="credential2dtolist" isStatic="true" method="_6uAyY05_EfCrB7LwsDlPdw">
+                <ownedParameter xmi:id="_6t7S1k5_EfCrB7LwsDlPdw" name="credentialList" type="_6tspUU5_EfCrB7LwsDlPdw"/>
+                <ownedParameter xmi:id="_6t7S105_EfCrB7LwsDlPdw" type="_6tt3c05_EfCrB7LwsDlPdw" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6t7S2E5_EfCrB7LwsDlPdw" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_6t1MME5_EfCrB7LwsDlPdw" name="IUsersService"/>
+            <packagedElement xmi:type="uml:Association" xmi:id="_6uCnkE5_EfCrB7LwsDlPdw" name="" memberEnd="_6uCnkU5_EfCrB7LwsDlPdw _6t9IAE5_EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_6uCnkU5_EfCrB7LwsDlPdw" name="" type="_6o5o4E5_EfCrB7LwsDlPdw" association="_6uCnkE5_EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_6uDOoU5_EfCrB7LwsDlPdw" name="" memberEnd="_6uDOok5_EfCrB7LwsDlPdw _6t9vEk5_EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_6uDOok5_EfCrB7LwsDlPdw" name="" type="_6o5o4E5_EfCrB7LwsDlPdw" association="_6uDOoU5_EfCrB7LwsDlPdw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_6uDOpE5_EfCrB7LwsDlPdw" name="" memberEnd="_6uDOpU5_EfCrB7LwsDlPdw _6t-WIk5_EfCrB7LwsDlPdw">
+              <ownedEnd xmi:id="_6uDOpU5_EfCrB7LwsDlPdw" name="" type="_6o5o4E5_EfCrB7LwsDlPdw" association="_6uDOpE5_EfCrB7LwsDlPdw"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6oh1cE5_EfCrB7LwsDlPdw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6oh1cU5_EfCrB7LwsDlPdw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6tsCQE5_EfCrB7LwsDlPdw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6tspUU5_EfCrB7LwsDlPdw" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_6t3BYk5_EfCrB7LwsDlPdw" name="lang">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_6t3BY05_EfCrB7LwsDlPdw" name="Long"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6oh1ck5_EfCrB7LwsDlPdw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6oh1c05_EfCrB7LwsDlPdw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6oh1dE5_EfCrB7LwsDlPdw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_6oh1dU5_EfCrB7LwsDlPdw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_6oh1dk5_EfCrB7LwsDlPdw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6ttQYE5_EfCrB7LwsDlPdw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_6oh1d05_EfCrB7LwsDlPdw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_6oh1eE5_EfCrB7LwsDlPdw" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_6oicgE5_EfCrB7LwsDlPdw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6ttQYk5_EfCrB7LwsDlPdw" name="Modifying"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_6oicgU5_EfCrB7LwsDlPdw" name="security">
+          <packagedElement xmi:type="uml:Package" xmi:id="_6oicgk5_EfCrB7LwsDlPdw" name="crypto">
+            <packagedElement xmi:type="uml:Package" xmi:id="_6oicg05_EfCrB7LwsDlPdw" name="password">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_6ttQZE5_EfCrB7LwsDlPdw" name="PasswordEncoder"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_6oichE5_EfCrB7LwsDlPdw" name="stereotype">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_6tt3cU5_EfCrB7LwsDlPdw" name="Service"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6ojDkU5_EfCrB7LwsDlPdw" name="jakarta">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6ojDkk5_EfCrB7LwsDlPdw" name="transaction">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6twTsU5_EfCrB7LwsDlPdw" name="Transactional"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_6ojqoE5_EfCrB7LwsDlPdw" name="lombok">
+      <packagedElement xmi:type="uml:Package" xmi:id="_6ojqoU5_EfCrB7LwsDlPdw" name="extern">
+        <packagedElement xmi:type="uml:Package" xmi:id="_6ojqok5_EfCrB7LwsDlPdw" name="slf4j">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_6twTs05_EfCrB7LwsDlPdw" name="Slf4j"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_6o6P8E5_EfCrB7LwsDlPdw">
+      <eAnnotations xmi:id="_6o6P8U5_EfCrB7LwsDlPdw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6o7eEE5_EfCrB7LwsDlPdw" base_Element="_6o5o4E5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_6o-hYE5_EfCrB7LwsDlPdw" base_Element="_6o96UE5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6o-hYU5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6pAWkU5_EfCrB7LwsDlPdw" base_Element="_6o_vgE5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6pA9oE5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6pCLwE5_EfCrB7LwsDlPdw" base_Element="_6pBksE5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6pCy0E5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6pDZ4E5_EfCrB7LwsDlPdw" base_Element="_6o5o4E5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6pEA8E5_EfCrB7LwsDlPdw" name="Service"/>
+    <annotations xmi:id="_6pEA8U5_EfCrB7LwsDlPdw" name="Slf4j"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_6tspUE5_EfCrB7LwsDlPdw" base_Element="_6tsCQE5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tspUk5_EfCrB7LwsDlPdw" base_Element="_6tspUU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6ttQYU5_EfCrB7LwsDlPdw" base_Element="_6ttQYE5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6ttQY05_EfCrB7LwsDlPdw" base_Element="_6ttQYk5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tt3cE5_EfCrB7LwsDlPdw" base_Element="_6ttQZE5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tt3ck5_EfCrB7LwsDlPdw" base_Element="_6tt3cU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tuegE5_EfCrB7LwsDlPdw" base_Element="_6tt3c05_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tuegk5_EfCrB7LwsDlPdw" base_Element="_6tuegU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tvFkE5_EfCrB7LwsDlPdw" base_Element="_6tueg05_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tvFkk5_EfCrB7LwsDlPdw" base_Element="_6tvFkU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tvsoE5_EfCrB7LwsDlPdw" base_Element="_6tvFk05_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tvsok5_EfCrB7LwsDlPdw" base_Element="_6tvsoU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tvspE5_EfCrB7LwsDlPdw" base_Element="_6tvso05_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6twTsE5_EfCrB7LwsDlPdw" base_Element="_6tvspU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6twTsk5_EfCrB7LwsDlPdw" base_Element="_6twTsU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6tw6wE5_EfCrB7LwsDlPdw" base_Element="_6twTs05_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6t1MMU5_EfCrB7LwsDlPdw" base_Element="_6t1MME5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_6t2aUU5_EfCrB7LwsDlPdw" base_Element="_6t1zQE5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t2aUk5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t3BYE5_EfCrB7LwsDlPdw" base_Element="_6t2aU05_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t3BYU5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_6t3ocE5_EfCrB7LwsDlPdw" base_Element="_6t3BY05_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_6t3odE5_EfCrB7LwsDlPdw" base_Element="_6t3ocU5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t3odU5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t4PgE5_EfCrB7LwsDlPdw" base_Element="_6t3odk5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t4PgU5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t4PhU5_EfCrB7LwsDlPdw" base_Element="_6t4Pgk5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t4Phk5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t42k05_EfCrB7LwsDlPdw" base_Element="_6t42kE5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t42lE5_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t5dok5_EfCrB7LwsDlPdw" base_Element="_6t42lU5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t5do05_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t6EsE5_EfCrB7LwsDlPdw" base_Element="_6t5dpU5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t6EsU5_EfCrB7LwsDlPdw" name="Modifying"/>
+    <annotations xmi:id="_6t6Esk5_EfCrB7LwsDlPdw" name="Transactional"/>
+    <annotations xmi:id="_6t6Es05_EfCrB7LwsDlPdw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_6t6rwE5_EfCrB7LwsDlPdw" base_Element="_6t6EtE5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:StyledElement xmi:id="_6t6rxU5_EfCrB7LwsDlPdw" base_Element="_6t6rwU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Generics xmi:id="_6t7S0E5_EfCrB7LwsDlPdw" genericsValue="Users" base_Element="_6t6rwk5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:StyledElement xmi:id="_6t7S1E5_EfCrB7LwsDlPdw" base_Element="_6t7S0U5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:StyledElement xmi:id="_6t754E5_EfCrB7LwsDlPdw" base_Element="_6t7S1U5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Generics xmi:id="_6t754U5_EfCrB7LwsDlPdw" genericsValue="Credential" base_Element="_6t7S1k5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Annotations xmi:id="_6t9vEE5_EfCrB7LwsDlPdw" base_Element="_6t9IAE5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t9vEU5_EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t-WIE5_EfCrB7LwsDlPdw" base_Element="_6t9vEk5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t-WIU5_EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_6t-WI05_EfCrB7LwsDlPdw" base_Element="_6t-WIk5_EfCrB7LwsDlPdw">
+    <annotations xmi:id="_6t-WJE5_EfCrB7LwsDlPdw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_6uDOoE5_EfCrB7LwsDlPdw" base_Element="_6uCnkE5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6uDOo05_EfCrB7LwsDlPdw" base_Element="_6uDOoU5_EfCrB7LwsDlPdw"/>
+  <UMLLabProfile:Reference xmi:id="_6uD1sE5_EfCrB7LwsDlPdw" base_Element="_6uDOpE5_EfCrB7LwsDlPdw"/>
+</xmi:XMI>
