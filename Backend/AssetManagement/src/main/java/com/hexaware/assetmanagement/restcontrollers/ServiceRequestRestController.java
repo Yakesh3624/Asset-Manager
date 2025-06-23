@@ -3,7 +3,6 @@ package com.hexaware.assetmanagement.restcontrollers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,8 +16,6 @@ import com.hexaware.assetmanagement.dto.ServiceRequestDTO;
 import com.hexaware.assetmanagement.exceptions.DataAlreadyExistException;
 import com.hexaware.assetmanagement.exceptions.DataNotFoundException;
 import com.hexaware.assetmanagement.services.IAssetManagementService;
-
-import jakarta.transaction.Transactional;
 
 /**
  * REST controller for handling service/maintenance requests for assets.
@@ -92,8 +89,6 @@ public class ServiceRequestRestController {
 		return "Request deleted successfully";
 	}
 
-	@Transactional
-	@Modifying
 	@DeleteMapping("/delete/usersId/{usersId}")
 	void deleteServiceRequestByUsersId(@PathVariable Long usersId) {
 		service.deleteServiceRequestByUsersId(usersId);

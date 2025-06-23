@@ -1,21 +1,21 @@
-2025-06-22T09:00:59.974+05:30  INFO 3672 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 3672 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T09:00:59.979+05:30  INFO 3672 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T09:01:00.641+05:30  INFO 3672 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T09:01:00.701+05:30  INFO 3672 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
-2025-06-22T09:01:01.123+05:30  INFO 3672 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-06-22T09:01:01.136+05:30  INFO 3672 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-22T09:01:01.136+05:30  INFO 3672 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-06-22T09:01:01.193+05:30  INFO 3672 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-22T09:01:01.193+05:30  INFO 3672 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1168 ms
-2025-06-22T09:01:01.319+05:30  INFO 3672 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T09:01:01.380+05:30  INFO 3672 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T09:01:01.426+05:30  INFO 3672 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T09:01:01.675+05:30  INFO 3672 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T09:01:01.716+05:30  INFO 3672 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T09:01:02.001+05:30  INFO 3672 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57fce8b
-2025-06-22T09:01:02.003+05:30  INFO 3672 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T09:01:02.053+05:30  WARN 3672 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T09:01:02.068+05:30  INFO 3672 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-23T09:37:38.430+05:30  INFO 17896 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 17896 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
+2025-06-23T09:37:38.435+05:30  INFO 17896 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-06-23T09:37:39.300+05:30  INFO 17896 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-23T09:37:39.372+05:30  INFO 17896 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2025-06-23T09:37:39.887+05:30  INFO 17896 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-06-23T09:37:39.903+05:30  INFO 17896 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-23T09:37:39.903+05:30  INFO 17896 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-23T09:37:39.964+05:30  INFO 17896 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-23T09:37:39.964+05:30  INFO 17896 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1475 ms
+2025-06-23T09:37:40.131+05:30  INFO 17896 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-23T09:37:40.210+05:30  INFO 17896 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-23T09:37:40.263+05:30  INFO 17896 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-23T09:37:40.554+05:30  INFO 17896 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-23T09:37:40.588+05:30  INFO 17896 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-23T09:37:40.904+05:30  INFO 17896 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22361e23
+2025-06-23T09:37:40.906+05:30  INFO 17896 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-23T09:37:40.962+05:30  WARN 17896 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-23T09:37:40.982+05:30  INFO 17896 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.41
@@ -23,348 +23,362 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-22T09:01:02.980+05:30  INFO 3672 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T09:01:03.076+05:30  INFO 3672 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:01:03.927+05:30  WARN 3672 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T09:01:04.311+05:30  INFO 3672 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-06-22T09:01:04.317+05:30  INFO 3672 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 4.792 seconds (process running for 5.285)
-2025-06-22T09:25:59.465+05:30  WARN 3672 --- [AssetManagement] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m27s269ms697µs).
-2025-06-22T09:26:22.773+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-22T09:26:22.773+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-22T09:26:22.775+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-06-22T09:26:22.819+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:26:22.932+05:30  WARN 3672 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:26:47.473+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 252
-2025-06-22T09:26:47.478+05:30  WARN 3672 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 252
-2025-06-22T09:26:51.972+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:26:51.978+05:30  WARN 3672 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:28:34.883+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:28:34.888+05:30  WARN 3672 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:30:38.301+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:30:38.310+05:30  WARN 3672 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:30:51.190+05:30  INFO 3672 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:30:51.193+05:30  WARN 3672 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:31:23.529+05:30  INFO 3672 --- [AssetManagement] [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-22T09:31:23.531+05:30  INFO 3672 --- [AssetManagement] [RMI TCP Connection(20)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-22T09:31:23.537+05:30  INFO 3672 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-22T09:31:23.542+05:30  INFO 3672 --- [AssetManagement] [RMI TCP Connection(20)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:31:23.545+05:30  INFO 3672 --- [AssetManagement] [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T09:31:23.555+05:30  INFO 3672 --- [AssetManagement] [RMI TCP Connection(20)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-22T09:31:27.767+05:30  INFO 17404 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 17404 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T09:31:27.768+05:30  INFO 17404 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T09:31:28.328+05:30  INFO 17404 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T09:31:28.374+05:30  INFO 17404 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 6 JPA repository interfaces.
-2025-06-22T09:31:28.743+05:30  INFO 17404 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-06-22T09:31:28.754+05:30  INFO 17404 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-22T09:31:28.754+05:30  INFO 17404 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-06-22T09:31:28.807+05:30  INFO 17404 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-22T09:31:28.807+05:30  INFO 17404 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1001 ms
-2025-06-22T09:31:28.913+05:30  INFO 17404 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T09:31:28.948+05:30  INFO 17404 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T09:31:28.972+05:30  INFO 17404 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T09:31:29.170+05:30  INFO 17404 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T09:31:29.195+05:30  INFO 17404 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T09:31:29.441+05:30  INFO 17404 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32a4ea4e
-2025-06-22T09:31:29.443+05:30  INFO 17404 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T09:31:29.511+05:30  WARN 17404 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T09:31:29.525+05:30  INFO 17404 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-06-22T09:31:30.278+05:30  INFO 17404 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T09:31:30.420+05:30  INFO 17404 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:31:31.151+05:30  WARN 17404 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T09:31:31.514+05:30  INFO 17404 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-06-22T09:31:31.521+05:30  INFO 17404 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 4.096 seconds (process running for 4.616)
-2025-06-22T09:31:58.810+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-22T09:31:58.810+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-22T09:31:58.811+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-06-22T09:31:58.891+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:31:59.110+05:30  WARN 17404 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:32:03.079+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 202
-2025-06-22T09:32:03.172+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Found 2 asset allocations for user ID: 202
-2025-06-22T09:32:11.372+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 1
-2025-06-22T09:32:11.380+05:30  WARN 17404 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 1
-2025-06-22T09:32:13.480+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 1
-2025-06-22T09:32:13.487+05:30  WARN 17404 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 1
-2025-06-22T09:33:43.987+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:33:43.991+05:30  WARN 17404 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:33:47.270+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 1
-2025-06-22T09:33:47.274+05:30  WARN 17404 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 1
-2025-06-22T09:34:59.603+05:30  INFO 17404 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:34:59.614+05:30  WARN 17404 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:39:12.809+05:30  INFO 17404 --- [AssetManagement] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-22T09:39:12.812+05:30  INFO 17404 --- [AssetManagement] [RMI TCP Connection(11)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-22T09:39:12.828+05:30  INFO 17404 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-22T09:39:12.832+05:30  INFO 17404 --- [AssetManagement] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:39:12.834+05:30  INFO 17404 --- [AssetManagement] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T09:39:12.841+05:30  INFO 17404 --- [AssetManagement] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-22T09:39:14.920+05:30  INFO 14292 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 14292 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T09:39:14.922+05:30  INFO 14292 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T09:39:15.522+05:30  INFO 14292 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T09:39:15.574+05:30  INFO 14292 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
-2025-06-22T09:39:15.936+05:30  INFO 14292 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-06-22T09:39:15.947+05:30  INFO 14292 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-22T09:39:15.947+05:30  INFO 14292 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-06-22T09:39:15.997+05:30  INFO 14292 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-22T09:39:15.998+05:30  INFO 14292 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
-2025-06-22T09:39:16.108+05:30  INFO 14292 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T09:39:16.143+05:30  INFO 14292 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T09:39:16.182+05:30  INFO 14292 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T09:39:16.397+05:30  INFO 14292 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T09:39:16.419+05:30  INFO 14292 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T09:39:16.669+05:30  INFO 14292 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@347b370c
-2025-06-22T09:39:16.671+05:30  INFO 14292 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T09:39:16.708+05:30  WARN 14292 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T09:39:16.721+05:30  INFO 14292 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-06-22T09:39:17.514+05:30  INFO 14292 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T09:39:17.650+05:30  INFO 14292 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:39:18.411+05:30  WARN 14292 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T09:39:18.753+05:30  INFO 14292 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-06-22T09:39:18.761+05:30  INFO 14292 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 4.217 seconds (process running for 4.739)
-2025-06-22T09:39:20.928+05:30  INFO 14292 --- [AssetManagement] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-22T09:39:20.928+05:30  INFO 14292 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-22T09:39:20.929+05:30  INFO 14292 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-06-22T09:39:20.971+05:30  INFO 14292 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:39:21.067+05:30  WARN 14292 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:41:30.578+05:30  INFO 14292 --- [AssetManagement] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-22T09:41:30.580+05:30  INFO 14292 --- [AssetManagement] [RMI TCP Connection(6)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-22T09:41:30.596+05:30  INFO 14292 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-22T09:41:30.600+05:30  INFO 14292 --- [AssetManagement] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:41:30.601+05:30  INFO 14292 --- [AssetManagement] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T09:41:30.607+05:30  INFO 14292 --- [AssetManagement] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-22T09:41:32.200+05:30  INFO 24412 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 24412 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T09:41:32.201+05:30  INFO 24412 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T09:41:32.740+05:30  INFO 24412 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T09:41:32.791+05:30  INFO 24412 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 6 JPA repository interfaces.
-2025-06-22T09:41:33.127+05:30  INFO 24412 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-06-22T09:41:33.136+05:30  INFO 24412 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-22T09:41:33.137+05:30  INFO 24412 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-06-22T09:41:33.177+05:30  INFO 24412 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-22T09:41:33.185+05:30  INFO 24412 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 949 ms
-2025-06-22T09:41:33.286+05:30  INFO 24412 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T09:41:33.318+05:30  INFO 24412 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T09:41:33.357+05:30  INFO 24412 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T09:41:33.537+05:30  INFO 24412 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T09:41:33.556+05:30  INFO 24412 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T09:41:33.791+05:30  INFO 24412 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f4d2294
-2025-06-22T09:41:33.793+05:30  INFO 24412 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T09:41:33.829+05:30  WARN 24412 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T09:41:33.842+05:30  INFO 24412 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-06-22T09:41:34.695+05:30  INFO 24412 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T09:41:34.819+05:30  INFO 24412 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:41:35.575+05:30  WARN 24412 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T09:41:35.920+05:30  INFO 24412 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-06-22T09:41:35.929+05:30  INFO 24412 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 4.038 seconds (process running for 4.508)
-2025-06-22T09:41:38.316+05:30  INFO 24412 --- [AssetManagement] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-22T09:41:38.316+05:30  INFO 24412 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-22T09:41:38.317+05:30  INFO 24412 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-06-22T09:41:38.355+05:30  INFO 24412 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:41:38.460+05:30  WARN 24412 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:43:25.991+05:30  INFO 24412 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:43:25.992+05:30  WARN 24412 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:43:49.686+05:30  INFO 24412 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:43:49.686+05:30  WARN 24412 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:45:19.014+05:30  INFO 24412 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-22T09:45:19.016+05:30  INFO 24412 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-22T09:45:19.027+05:30  INFO 24412 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-22T09:45:19.031+05:30  INFO 24412 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:45:19.032+05:30  INFO 24412 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T09:45:19.038+05:30  INFO 24412 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-22T09:45:20.867+05:30  INFO 1340 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 1340 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T09:45:20.868+05:30  INFO 1340 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T09:45:21.465+05:30  INFO 1340 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T09:45:21.517+05:30  INFO 1340 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 6 JPA repository interfaces.
-2025-06-22T09:45:21.914+05:30  INFO 1340 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-06-22T09:45:21.923+05:30  INFO 1340 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-22T09:45:21.924+05:30  INFO 1340 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-06-22T09:45:21.976+05:30  INFO 1340 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-22T09:45:21.976+05:30  INFO 1340 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
-2025-06-22T09:45:22.086+05:30  INFO 1340 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T09:45:22.119+05:30  INFO 1340 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T09:45:22.160+05:30  INFO 1340 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T09:45:22.383+05:30  INFO 1340 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T09:45:22.404+05:30  INFO 1340 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T09:45:22.663+05:30  INFO 1340 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@311d28f5
-2025-06-22T09:45:22.666+05:30  INFO 1340 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T09:45:22.709+05:30  WARN 1340 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T09:45:22.722+05:30  INFO 1340 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-06-22T09:45:23.529+05:30  INFO 1340 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T09:45:23.659+05:30  INFO 1340 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:45:24.489+05:30  WARN 1340 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T09:45:24.868+05:30  INFO 1340 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-06-22T09:45:24.874+05:30  INFO 1340 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 4.363 seconds (process running for 4.953)
-2025-06-22T09:45:25.103+05:30  INFO 1340 --- [AssetManagement] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-22T09:45:25.103+05:30  INFO 1340 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-22T09:45:25.105+05:30  INFO 1340 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-06-22T09:45:25.157+05:30  INFO 1340 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:45:25.252+05:30  WARN 1340 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:45:28.428+05:30  INFO 1340 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:45:28.449+05:30  WARN 1340 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 253
-2025-06-22T09:48:13.479+05:30  INFO 1340 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-22T09:48:13.481+05:30  INFO 1340 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-22T09:48:13.494+05:30  INFO 1340 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-22T09:48:13.498+05:30  INFO 1340 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:48:13.498+05:30  INFO 1340 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T09:48:13.504+05:30  INFO 1340 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-22T09:48:15.434+05:30  INFO 27268 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Starting AssetManagementApplication using Java 21.0.6 with PID 27268 (C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement\target\classes started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T09:48:15.436+05:30  INFO 27268 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T09:48:16.053+05:30  INFO 27268 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T09:48:16.102+05:30  INFO 27268 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
-2025-06-22T09:48:16.492+05:30  INFO 27268 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-06-22T09:48:16.503+05:30  INFO 27268 --- [AssetManagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-22T09:48:16.503+05:30  INFO 27268 --- [AssetManagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
-2025-06-22T09:48:16.546+05:30  INFO 27268 --- [AssetManagement] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-22T09:48:16.546+05:30  INFO 27268 --- [AssetManagement] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1062 ms
-2025-06-22T09:48:16.652+05:30  INFO 27268 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T09:48:16.688+05:30  INFO 27268 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T09:48:16.712+05:30  INFO 27268 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T09:48:16.912+05:30  INFO 27268 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T09:48:16.933+05:30  INFO 27268 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T09:48:17.183+05:30  INFO 27268 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72a33316
-2025-06-22T09:48:17.185+05:30  INFO 27268 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T09:48:17.225+05:30  WARN 27268 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T09:48:17.238+05:30  INFO 27268 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-06-22T09:48:18.008+05:30  INFO 27268 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T09:48:18.076+05:30  INFO 27268 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:48:18.810+05:30  WARN 27268 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T09:48:19.150+05:30  INFO 27268 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-06-22T09:48:19.157+05:30  INFO 27268 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 4.068 seconds (process running for 4.532)
-2025-06-22T09:49:37.634+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-22T09:49:37.634+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-22T09:49:37.634+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-06-22T09:49:37.731+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 253
-2025-06-22T09:49:37.934+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Found 0 asset allocations for user ID: 253
-2025-06-22T09:49:42.774+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 1
-2025-06-22T09:49:42.785+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Found 0 asset allocations for user ID: 1
-2025-06-22T09:50:24.795+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
-2025-06-22T09:50:24.878+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
-2025-06-22T09:50:31.171+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching all asset allocations
-2025-06-22T09:50:31.182+05:30  WARN 27268 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No asset allocations found
-2025-06-22T09:50:33.975+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
-2025-06-22T09:50:34.032+05:30  INFO 27268 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
-2025-06-22T09:51:39.155+05:30  INFO 27268 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2025-06-22T09:51:39.159+05:30  INFO 27268 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-22T09:51:39.178+05:30  INFO 27268 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-22T09:51:39.185+05:30  INFO 27268 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T09:51:39.189+05:30  INFO 27268 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T09:51:39.206+05:30  INFO 27268 --- [AssetManagement] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-06-22T11:12:43.929+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.AssetManagementApplicationTests    : Starting AssetManagementApplicationTests using Java 21.0.6 with PID 18144 (started by Yakesh in C:\Users\Yakesh\Downloads\Spring Training Repo\Spring-Training\AssetManagement)
-2025-06-22T11:12:43.931+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.AssetManagementApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2025-06-22T11:12:44.772+05:30  INFO 18144 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-22T11:12:44.826+05:30  INFO 18144 --- [AssetManagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 6 JPA repository interfaces.
-2025-06-22T11:12:45.465+05:30  INFO 18144 --- [AssetManagement] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-22T11:12:45.544+05:30  INFO 18144 --- [AssetManagement] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.13.Final
-2025-06-22T11:12:45.594+05:30  INFO 18144 --- [AssetManagement] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-22T11:12:45.926+05:30  INFO 18144 --- [AssetManagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-22T11:12:45.948+05:30  INFO 18144 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-22T11:12:46.249+05:30  INFO 18144 --- [AssetManagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24b3f778
-2025-06-22T11:12:46.251+05:30  INFO 18144 --- [AssetManagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-22T11:12:46.302+05:30  WARN 18144 --- [AssetManagement] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-22T11:12:46.316+05:30  INFO 18144 --- [AssetManagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.41
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-06-22T11:12:47.118+05:30  INFO 18144 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-22T11:12:47.202+05:30  INFO 18144 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T11:12:48.436+05:30  WARN 18144 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-22T11:12:49.160+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.AssetManagementApplicationTests    : Started AssetManagementApplicationTests in 5.513 seconds (process running for 6.386)
-2025-06-22T11:12:50.375+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching audit request with ID: 1
-2025-06-22T11:12:50.389+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Audit request found with ID: 1
-2025-06-22T11:12:50.601+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching asset with asset number: 1
-2025-06-22T11:12:50.603+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetched asset with asset number: 1
-2025-06-22T11:12:50.613+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocation with ID: 1
-2025-06-22T11:12:50.615+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Found asset allocation with ID: 1
-2025-06-22T11:12:50.672+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to delete asset with asset number: 1
-2025-06-22T11:12:50.674+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Asset with ID 1 deleted successfully
-2025-06-22T11:12:50.720+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to update audit request status. Request ID: 1, New Status: Approved
-2025-06-22T11:12:50.721+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully updated audit request ID: 1 with new status: Approved
-2025-06-22T11:12:50.729+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocation with asset number: 1
-2025-06-22T11:12:50.730+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Found asset allocation with asset number: 1
-2025-06-22T11:12:50.737+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to update asset with asset number: 1
-2025-06-22T11:12:50.738+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Asset updated successfully with asset number: 1
-2025-06-22T11:12:50.744+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching all service requests
-2025-06-22T11:12:50.788+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=1
-2025-06-22T11:12:50.795+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching service requests with status='Pending'
-2025-06-22T11:12:50.800+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: 1
-2025-06-22T11:12:50.801+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Asset added successfully with asset number: 1
-2025-06-22T11:12:50.805+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests with status: Pending
-2025-06-22T11:12:50.807+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 Asset requests with status: Pending
-2025-06-22T11:12:50.811+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 1
-2025-06-22T11:12:50.813+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 audit requests for userId: 1
-2025-06-22T11:12:50.820+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Updating status of service request with ID=1 to 'Completed'
-2025-06-22T11:12:50.821+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Service request with ID=1 marked as completed and deleted
-2025-06-22T11:12:50.825+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching asset by availability: available
-2025-06-22T11:12:50.825+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetched asset with availability: available
-2025-06-22T11:12:50.830+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
-2025-06-22T11:12:50.830+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
-2025-06-22T11:12:50.836+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to update asset availability with asset number: 1
-2025-06-22T11:12:50.837+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Asset availability updated successfully with asset number: 1
-2025-06-22T11:12:50.840+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 1
-2025-06-22T11:12:50.841+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 Asset requests for userId: 1
-2025-06-22T11:12:50.845+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 1
-2025-06-22T11:12:50.845+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Found 1 asset allocations for user ID: 1
-2025-06-22T11:12:50.851+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching asset by category: Laptop
-2025-06-22T11:12:50.851+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetched asset with category: Laptop
-2025-06-22T11:12:50.858+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
-2025-06-22T11:12:50.859+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 Asset requests.
-2025-06-22T11:12:50.863+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests with status: Pending
-2025-06-22T11:12:50.865+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 audit requests with status: Pending
-2025-06-22T11:12:50.869+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 1 for the asset ID: 1
-2025-06-22T11:12:50.869+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 1
-2025-06-22T11:12:50.873+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching service requests with issueType='Malfunction'
-2025-06-22T11:12:50.878+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching Asset request with ID: 1
-2025-06-22T11:12:50.879+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Asset request found with ID: 1
-2025-06-22T11:12:50.884+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching service request with ID=1
-2025-06-22T11:12:50.888+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to add service request for userId=1 and assetNo=1
-2025-06-22T11:12:50.891+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Service request created successfully for requestId=null
-2025-06-22T11:12:50.895+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Adding a new audit request for userId: 1 for the asset ID: 1
-2025-06-22T11:12:50.896+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Audit request saved with ID: 1
-2025-06-22T11:12:50.900+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Attempting to update Asset request status. Request ID: 1, New Status: Approved
-2025-06-22T11:12:50.902+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully updated Asset request ID: 1 with new status: Approved
-2025-06-22T11:12:50.908+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Allocating asset 1 to user 1 with return date 2025-07-02
-2025-06-22T11:12:50.910+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Allocated asset 1 to user 1 with return date 2025-07-02
-2025-06-22T11:12:50.913+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching all asset allocations
-2025-06-22T11:12:50.914+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Found 1 asset allocations
-2025-06-22T11:12:50.930+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
-2025-06-22T11:12:50.931+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 audit requests.
-2025-06-22T11:12:50.935+05:30  INFO 18144 --- [AssetManagement] [main] c.h.a.s.AssetManagementServiceImp        : Returning asset with asset No: 1
-2025-06-22T11:12:50.995+05:30  INFO 18144 --- [AssetManagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-22T11:12:50.999+05:30  INFO 18144 --- [AssetManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-22T11:12:51.019+05:30  INFO 18144 --- [AssetManagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-23T09:37:42.055+05:30  INFO 17896 --- [AssetManagement] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-23T09:37:42.220+05:30  INFO 17896 --- [AssetManagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-23T09:37:43.255+05:30  WARN 17896 --- [AssetManagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-23T09:37:43.734+05:30  INFO 17896 --- [AssetManagement] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-06-23T09:37:43.744+05:30  INFO 17896 --- [AssetManagement] [main] c.h.a.AssetManagementApplication         : Started AssetManagementApplication in 5.811 seconds (process running for 6.495)
+2025-06-23T09:38:07.562+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-23T09:38:07.573+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-23T09:38:07.577+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-06-23T09:38:07.644+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:38:08.004+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:38:36.336+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:38:36.548+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Asset added successfully with asset number: 402
+2025-06-23T09:38:38.568+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:38:38.631+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:38:55.124+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:01.194+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:06.440+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:15.724+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:27.118+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:35.145+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:39.827+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:45.178+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:39:49.377+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:39:49.445+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:40:08.084+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:40:14.703+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:41:01.751+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:41:07.286+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:41:14.560+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:41:45.750+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:41:45.788+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:41:47.398+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:41:47.442+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:41:58.840+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:42:10.555+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:42:10.607+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Asset added successfully with asset number: 403
+2025-06-23T09:42:20.224+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:42:23.639+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:42:23.642+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Asset already exist
+2025-06-23T09:42:28.072+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:42:28.111+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Asset added successfully with asset number: 404
+2025-06-23T09:42:41.838+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T09:42:51.981+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:42:52.051+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:42:55.778+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Attempting to delete asset with asset number: 403
+2025-06-23T09:42:55.848+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Asset with ID 403 deleted successfully
+2025-06-23T09:42:55.893+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:42:55.978+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:42:58.601+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Attempting to delete asset with asset number: 404
+2025-06-23T09:42:58.620+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Asset with ID 404 deleted successfully
+2025-06-23T09:42:58.659+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:42:58.740+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:08.618+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Attempting to update asset with asset number: 402
+2025-06-23T09:43:08.680+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Asset updated successfully with asset number: 402
+2025-06-23T09:43:08.722+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:08.822+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:19.094+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Attempting to update asset with asset number: 402
+2025-06-23T09:43:19.132+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Asset updated successfully with asset number: 402
+2025-06-23T09:43:19.157+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:19.240+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:23.242+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Attempting to update asset with asset number: 402
+2025-06-23T09:43:23.255+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Asset updated successfully with asset number: 402
+2025-06-23T09:43:23.278+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:23.345+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:35.033+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Attempting to delete asset with asset number: 402
+2025-06-23T09:43:35.054+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Asset with ID 402 deleted successfully
+2025-06-23T09:43:35.091+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:35.158+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:38.023+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:38.102+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:38.274+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:38.332+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:38.590+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:38.654+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:43.080+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:43.140+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:43.540+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:43.593+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:43.926+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:43.985+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:44.129+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:44.195+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:48.186+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:48.256+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:48.332+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:48.422+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:48.473+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:48.555+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:48.832+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:43:48.902+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:43:54.638+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching all asset allocations
+2025-06-23T09:43:54.645+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No asset allocations found
+2025-06-23T09:44:48.856+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T09:44:48.863+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 352
+2025-06-23T09:44:58.920+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T09:44:58.924+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 352
+2025-06-23T09:45:00.001+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:45:00.072+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:45:06.874+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 153
+2025-06-23T09:45:06.948+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 352
+2025-06-23T09:45:08.688+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 154
+2025-06-23T09:45:08.710+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 353
+2025-06-23T09:45:11.078+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 156
+2025-06-23T09:45:11.133+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 354
+2025-06-23T09:45:13.378+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 353
+2025-06-23T09:45:13.408+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 355
+2025-06-23T09:45:16.809+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 157
+2025-06-23T09:45:16.840+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 356
+2025-06-23T09:45:18.449+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:18.502+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:19.416+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:45:19.423+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No service requests found for userId=352
+2025-06-23T09:45:21.451+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:21.485+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:24.121+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:24.152+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 4 Asset requests for userId: 352
+2025-06-23T09:45:25.983+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:26.012+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 Asset requests for userId: 352
+2025-06-23T09:45:27.592+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:27.611+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests for userId: 352
+2025-06-23T09:45:28.822+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:28.844+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 Asset requests for userId: 352
+2025-06-23T09:45:29.554+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:29.556+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No Asset requests found for usersId: 352
+2025-06-23T09:45:31.160+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:45:31.212+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:45:32.764+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 153
+2025-06-23T09:45:32.811+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 357
+2025-06-23T09:45:33.939+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 154
+2025-06-23T09:45:33.961+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 358
+2025-06-23T09:45:35.208+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 156
+2025-06-23T09:45:35.233+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 359
+2025-06-23T09:45:37.475+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 157
+2025-06-23T09:45:37.499+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 360
+2025-06-23T09:45:38.674+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Adding a new asset request for userId: 352 for the asset ID: 353
+2025-06-23T09:45:38.723+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Asset request saved with ID: 361
+2025-06-23T09:45:40.585+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:45:40.589+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : No service requests found for userId=352
+2025-06-23T09:45:41.862+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:45:41.870+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : No audit requests found for usersId: 352
+2025-06-23T09:45:42.983+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T09:45:42.989+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No asset allocations found for user ID: 352
+2025-06-23T09:45:46.038+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:45:46.101+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:45:46.743+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:46.786+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:49.079+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:49.122+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:49.564+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:49.604+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:49.901+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:49.945+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:53.661+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:53.700+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:53.835+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:53.863+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:54.007+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:54.042+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:56.725+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:56.761+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:57.324+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:57.391+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:45:58.380+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:45:58.431+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:46:01.328+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:46:01.364+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests for userId: 352
+2025-06-23T09:46:11.022+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:46:11.085+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:46:14.188+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching all asset allocations
+2025-06-23T09:46:14.192+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : No asset allocations found
+2025-06-23T09:46:16.182+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:16.223+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 5 Asset requests.
+2025-06-23T09:46:18.202+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Attempting to update Asset request status. Request ID: 358, New Status: Approved
+2025-06-23T09:46:18.242+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully updated Asset request ID: 358 with new status: Approved
+2025-06-23T09:46:18.285+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:18.320+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 4 Asset requests.
+2025-06-23T09:46:19.160+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Attempting to update Asset request status. Request ID: 359, New Status: Approved
+2025-06-23T09:46:19.173+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Successfully updated Asset request ID: 359 with new status: Approved
+2025-06-23T09:46:19.225+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:19.242+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 Asset requests.
+2025-06-23T09:46:21.160+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Attempting to update Asset request status. Request ID: 361, New Status: Approved
+2025-06-23T09:46:21.167+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Successfully updated Asset request ID: 361 with new status: Approved
+2025-06-23T09:46:21.230+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:21.252+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests.
+2025-06-23T09:46:22.047+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Attempting to update Asset request status. Request ID: 360, New Status: Rejected
+2025-06-23T09:46:22.057+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully updated Asset request ID: 360 with new status: Rejected
+2025-06-23T09:46:22.100+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:22.131+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests.
+2025-06-23T09:46:22.949+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Attempting to update Asset request status. Request ID: 357, New Status: Rejected
+2025-06-23T09:46:22.956+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Successfully updated Asset request ID: 357 with new status: Rejected
+2025-06-23T09:46:22.983+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:23.001+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests.
+2025-06-23T09:46:31.028+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T09:46:31.051+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests.
+2025-06-23T09:46:34.026+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching all asset allocations
+2025-06-23T09:46:34.064+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations
+2025-06-23T09:46:36.551+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Adding a new audit request for userId: 352 for the asset ID: 353
+2025-06-23T09:46:36.602+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Audit request saved with ID: 252
+2025-06-23T09:46:37.724+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Adding a new audit request for userId: 352 for the asset ID: 156
+2025-06-23T09:46:37.760+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Audit request saved with ID: 253
+2025-06-23T09:46:38.818+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Adding a new audit request for userId: 352 for the asset ID: 154
+2025-06-23T09:46:38.840+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Audit request saved with ID: 254
+2025-06-23T09:46:41.319+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:41.338+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:43.447+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Attempting to update audit request status. Request ID: 252, New Status: Rejected
+2025-06-23T09:46:43.451+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully updated audit request ID: 252 with new status: Rejected
+2025-06-23T09:46:43.480+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:43.500+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:44.988+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Attempting to update audit request status. Request ID: 253, New Status: Approved
+2025-06-23T09:46:45.000+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Successfully updated audit request ID: 253 with new status: Approved
+2025-06-23T09:46:45.061+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:45.082+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:46.121+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Attempting to update audit request status. Request ID: 254, New Status: Rejected
+2025-06-23T09:46:46.128+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully updated audit request ID: 254 with new status: Rejected
+2025-06-23T09:46:46.175+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:46.200+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:49.404+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:49.424+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:49.660+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:49.685+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:49.962+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:49.979+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:50.081+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:50.101+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:50.374+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:50.390+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:53.953+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:53.973+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:54.578+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:54.597+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:54.615+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:54.632+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:54.650+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:54.671+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:46:54.680+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:46:54.711+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:47:00.954+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:47:01.030+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:47:03.232+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching all audit requests
+2025-06-23T09:47:03.257+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests.
+2025-06-23T09:47:05.561+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching all service requests
+2025-06-23T09:47:05.571+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No service requests found
+2025-06-23T09:47:25.611+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching all asset allocations
+2025-06-23T09:47:25.630+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations
+2025-06-23T09:47:36.074+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T09:47:36.109+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations for user ID: 352
+2025-06-23T09:47:46.050+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Attempting to add service request for userId=352 and assetNo=156
+2025-06-23T09:47:46.086+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Service request created successfully for requestId=202
+2025-06-23T09:47:55.033+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Attempting to add service request for userId=352 and assetNo=353
+2025-06-23T09:47:55.049+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Service request created successfully for requestId=203
+2025-06-23T09:47:57.832+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:47:57.882+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:48:07.475+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:48:07.488+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests for userId: 352
+2025-06-23T09:48:10.167+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:12.358+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:12.380+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:15.823+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:15.841+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:16.021+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:16.043+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:16.160+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:16.179+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:18.913+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:18.946+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:19.089+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:19.106+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:19.493+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:19.509+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:19.993+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:20.017+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:20.195+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:20.212+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:20.837+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:20.856+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:21.018+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:21.037+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:21.218+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:21.238+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:21.581+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:21.601+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:23.689+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:23.710+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:24.113+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:24.139+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:24.323+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:24.342+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:24.484+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:24.503+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:24.640+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:24.663+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:24.792+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching audit requests for usersId: 352
+2025-06-23T09:48:24.808+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 3 audit requests for userId: 352
+2025-06-23T09:48:27.334+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:31.850+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:32.049+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:32.219+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:32.374+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:35.284+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:35.451+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:35.618+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:35.920+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:39.888+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:40.390+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:40.846+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:41.078+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:41.460+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:45.533+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching service requests for userId=352
+2025-06-23T09:48:46.982+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T09:48:46.996+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests for userId: 352
+2025-06-23T09:49:15.730+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T09:49:15.787+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T09:49:18.160+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T09:49:18.180+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations for user ID: 352
+2025-06-23T12:39:35.928+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T12:39:36.032+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T12:40:12.982+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Attempting to add Asset with asset number: null
+2025-06-23T12:40:13.089+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-6] c.h.a.s.AssetManagementServiceImp        : Asset added successfully with asset number: 405
+2025-06-23T12:40:14.877+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T12:40:14.937+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T12:40:17.964+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Attempting to delete asset with asset number: 405
+2025-06-23T12:40:17.990+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-8] c.h.a.s.AssetManagementServiceImp        : Asset with ID 405 deleted successfully
+2025-06-23T12:40:18.016+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T12:40:18.080+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T12:55:37.401+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T12:55:37.420+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations for user ID: 352
+2025-06-23T12:55:39.919+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T12:55:39.934+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests for userId: 352
+2025-06-23T12:55:42.275+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T12:55:42.338+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T12:55:43.341+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T12:55:43.362+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations for user ID: 352
+2025-06-23T12:55:44.244+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T12:55:44.266+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 2 Asset requests for userId: 352
+2025-06-23T12:55:45.351+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T12:55:45.360+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Successfully retrieved 1 Asset requests for userId: 352
+2025-06-23T12:55:45.871+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T12:55:45.874+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-10] c.h.a.s.AssetManagementServiceImp        : No Asset requests found for usersId: 352
+2025-06-23T12:55:59.718+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : Fetching all Asset requests
+2025-06-23T12:55:59.722+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-1] c.h.a.s.AssetManagementServiceImp        : No Asset requests found in the database.
+2025-06-23T12:56:09.054+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T12:56:09.070+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-2] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations for user ID: 352
+2025-06-23T12:56:12.823+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T12:56:12.878+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-3] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T12:56:15.636+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : Fetching Asset requests for usersId: 352
+2025-06-23T12:56:15.641+05:30  WARN 17896 --- [AssetManagement] [http-nio-8081-exec-4] c.h.a.s.AssetManagementServiceImp        : No Asset requests found for usersId: 352
+2025-06-23T12:56:16.830+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Fetching asset allocations for user ID: 352
+2025-06-23T12:56:16.846+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-5] c.h.a.s.AssetManagementServiceImp        : Found 3 asset allocations for user ID: 352
+2025-06-23T12:56:17.877+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T12:56:17.929+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-7] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T13:08:20.683+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetch all assets
+2025-06-23T13:08:20.717+05:30  INFO 17896 --- [AssetManagement] [http-nio-8081-exec-9] c.h.a.s.AssetManagementServiceImp        : Fetched all assets
+2025-06-23T14:08:12.060+05:30  WARN 17896 --- [AssetManagement] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m57s327ms103µs100ns).
+2025-06-23T14:13:53.496+05:30  INFO 17896 --- [AssetManagement] [RMI TCP Connection(275)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-23T14:13:53.588+05:30  INFO 17896 --- [AssetManagement] [RMI TCP Connection(275)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-23T14:13:53.608+05:30  INFO 17896 --- [AssetManagement] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-23T14:13:53.635+05:30  INFO 17896 --- [AssetManagement] [RMI TCP Connection(275)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-23T14:13:53.665+05:30  INFO 17896 --- [AssetManagement] [RMI TCP Connection(275)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-23T14:13:53.671+05:30  INFO 17896 --- [AssetManagement] [RMI TCP Connection(275)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

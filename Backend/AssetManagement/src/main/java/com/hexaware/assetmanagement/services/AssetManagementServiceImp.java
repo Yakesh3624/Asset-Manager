@@ -6,7 +6,6 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
 
 import com.hexaware.assetmanagement.dto.AssetAllocationDTO;
@@ -183,7 +182,6 @@ public class AssetManagementServiceImp implements IAssetManagementService {
 		return assetList.stream().map(asset -> modelMapper.map(asset, AssetDTO.class)).collect(Collectors.toList());
 	}
 
-	@Modifying
 	@Transactional
 	@Override
 	public String deleteAssetByAssetNo(Long assetNo) throws DataNotFoundException {
@@ -545,7 +543,6 @@ public class AssetManagementServiceImp implements IAssetManagementService {
 
 	@Override
 	@Transactional
-	@Modifying
 	public AssetRequestDTO updateAssetRequestStatus(Long requestId, String status) throws DataNotFoundException {
 		log.info("Attempting to update Asset request status. Request ID: {}, New Status: {}", requestId, status);
 
@@ -737,6 +734,7 @@ public class AssetManagementServiceImp implements IAssetManagementService {
 	}
 
 	@Override
+	@Transactional
 	public void deleteAssetAllocationByUsersId(Long usersId) throws DataNotFoundException {
 		List<AssetAllocation> list = assetAllocationRepo.findByUser_UsersId(usersId).orElse(null);
 		if(!list.isEmpty()) {
@@ -753,18 +751,21 @@ public class AssetManagementServiceImp implements IAssetManagementService {
 	}
 
 	@Override
+	@Transactional
 	public void deleteAssetRequestByUsersId(Long usersId) {
 		assetRequestRepo.deleteByUser_UsersId(usersId);
 
 	}
 
 	@Override
+	@Transactional
 	public void deleteServiceRequestByUsersId(Long usersId) {
 		serviceRequestRepo.deleteByUser_UsersId(usersId);
 
 	}
 
 	@Override
+	@Transactional
 	public void deleteAuditRequestByUsersId(Long usersId) {
 		auditRequestRepo.deleteByUser_UsersId(usersId);
 

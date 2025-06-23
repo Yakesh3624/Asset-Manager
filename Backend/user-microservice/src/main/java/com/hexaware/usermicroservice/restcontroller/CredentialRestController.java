@@ -3,7 +3,6 @@ package com.hexaware.usermicroservice.restcontroller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -17,8 +16,6 @@ import com.hexaware.usermicroservice.dto.CredentialDTO;
 import com.hexaware.usermicroservice.entity.Credential;
 import com.hexaware.usermicroservice.exception.DataNotFoundException;
 import com.hexaware.usermicroservice.service.IUsersService;
-
-import jakarta.transaction.Transactional;
 
 /**
  * REST controller for managing user credentials in the Asset Management System.
@@ -53,8 +50,7 @@ public class CredentialRestController {
 		return service.updateCredential(credential);
 	}
 
-	@Modifying
-	@Transactional
+	
 	@DeleteMapping("/delete/{usersId}")
 	@PreAuthorize("hasAuthority('ADMIN')")
 	public String deleteCredential(@PathVariable Long usersId) throws DataNotFoundException {

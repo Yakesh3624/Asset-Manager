@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -31,7 +30,6 @@ import com.hexaware.usermicroservice.exception.DataAlreadyExistException;
 import com.hexaware.usermicroservice.exception.DataNotFoundException;
 import com.hexaware.usermicroservice.service.IUsersService;
 
-import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
 /**
@@ -81,8 +79,7 @@ public class UsersRestController {
 		return service.getUsersByUsersId(usersId);
 	}
 
-	@Modifying
-	@Transactional
+
 	@DeleteMapping("/delete/{usersId}")
 	@PreAuthorize("hasAuthority('ADMIN')")
 	public String deleteUsersById(@PathVariable Long usersId) throws DataNotFoundException {

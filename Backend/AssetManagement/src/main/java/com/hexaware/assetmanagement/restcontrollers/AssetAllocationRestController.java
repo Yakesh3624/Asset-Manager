@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,8 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hexaware.assetmanagement.dto.AssetAllocationDTO;
 import com.hexaware.assetmanagement.exceptions.DataNotFoundException;
 import com.hexaware.assetmanagement.services.IAssetManagementService;
-
-import jakarta.transaction.Transactional;
 
 /**
  * REST controller for managing asset allocation operations in the Asset
@@ -80,8 +77,6 @@ public class AssetAllocationRestController {
 		return service.returnAsset(assetNo);
 	}
 
-	@Transactional
-	@Modifying
 	@DeleteMapping("/delete/usersId/{usersId}")
 	void deleteAssetAllocationByUsersId(@PathVariable Long usersId) throws DataNotFoundException {
 

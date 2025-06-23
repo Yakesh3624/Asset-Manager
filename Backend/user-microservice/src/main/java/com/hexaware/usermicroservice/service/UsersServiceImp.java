@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +16,6 @@ import com.hexaware.usermicroservice.exception.DataNotFoundException;
 import com.hexaware.usermicroservice.repository.CredentialRepository;
 import com.hexaware.usermicroservice.repository.UsersRepository;
 
-import jakarta.transaction.Transactional;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -203,8 +201,6 @@ public class UsersServiceImp implements IUsersService {
 		return credential2dto(credential);
 	}
 
-	@Modifying
-	@Transactional
 	@Override
 	public String deleteCredential(Long usersId) throws DataNotFoundException {
 
